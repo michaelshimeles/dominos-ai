@@ -1,0 +1,1 @@
+ALTER TABLE "chat_participants" ALTER COLUMN "user_id" SET DATA TYPE text;

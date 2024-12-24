@@ -1,0 +1,1 @@
+ALTER TABLE "chat_participants" ADD CONSTRAINT "chat_participants_character_id_character_id_fk" FOREIGN KEY ("character_id") REFERENCES "public"."character"("id") ON DELETE cascade ON UPDATE no action;
