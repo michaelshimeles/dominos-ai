@@ -1,12 +1,49 @@
 "server-only";
 import { tool as createTool } from "ai";
 import { z } from "zod";
-import { orderPizza } from "./pizza";
+import { orderDetails } from "./pizza/order-details";
+import selectLocation from "./pizza/select-location";
+import { selectPizza } from "./pizza/select-pizza";
+import { processPayment } from "./pizza/process-payment";
 
-export const order = createTool({
-  description: "Order a pizza",
+// State interface
+interface OrderState {
+  selectedFood?: any;
+  address?: any;
+  payment?: any;
+  customerInfo?: any;
+  orderObject?: any;
+}
+
+let orderState: OrderState = {};
+
+const selectFood = createTool({
+  description: "Allow the user to select food items",
   parameters: z.object({
-    action: z.enum(["initiate", "complete"]),
+    items: z.array(
+      z.object({
+        name: z.enum([
+          "basicCheese",
+          "pepperoniExtraCheese",
+          "hawaiian",
+          "supreme",
+        ]),
+        size: z.enum(["10SCREEN", "12SCREEN", "14SCREEN", "16SCREEN"]),
+        quantity: z.number().int().positive(),
+      })
+    ),
+  }),
+  execute: async ({ items }) => {
+    // Logic to process food selection
+    const result = await selectPizza(items);
+    orderState.selectedFood = result;
+    return { success: true, orderItems: result };
+  },
+});
+
+const selectNearbyStore = createTool({
+  description: "Find the nearest pizza location to order from",
+  parameters: z.object({
     customerInfo: z.object({
       address: z.string(),
       firstName: z.string(),
@@ -16,41 +53,98 @@ export const order = createTool({
       unitNumber: z.string(),
       unitType: z.string(),
     }),
-    cardInfo: z.object({
-      number: z.string(),
-      expiration: z.string(),
-      securityCode: z.string(),
-      postalCode: z.string(),
-    }),
   }),
-  execute: async ({ action, customerInfo, cardInfo }) => {
-    if (action === "initiate") {
+  execute: async ({ customerInfo }) => {
+    try {
+      const storeId = await selectLocation({ customerInfo });
+
+      orderState.address = storeId;
+      orderState.customerInfo = customerInfo;
       return {
-        status: "awaiting_payment",
-        message: "Payment form displayed",
+        success: true,
+        result: {
+          address: customerInfo.address,
+          storeInfo: storeId,
+        },
       };
-    } else {
-      const info = orderPizza(customerInfo, cardInfo);
+    } catch (error) {
       return {
-        status: "success",
-        message: "Order processed",
-        info,
+        success: false,
+        result: error,
       };
     }
   },
 });
 
-// export const order = createTool({
-//   description: "Display payment form for pizza order. Use this when ready to collect payment.",
-//   parameters: z.object({}), // Empty object since we'll collect parameters via form
-//   execute: async () => {
-//     return {
-//       displayForm: true,
-//       message: "Payment form displayed"
-//     };
-//   },
-// });
+const getOrderDetails = createTool({
+  description: "Get the order details like amount due",
+  parameters: z.object({}),
+  execute: async () => {
+    if (
+      !orderState.customerInfo ||
+      !orderState.selectedFood ||
+      !orderState.address
+    ) {
+      console.log("Missing order data:", { orderState });
+      throw new Error("Missing required order data");
+    }
+
+    console.log("orderState.selectedFood", orderState?.selectedFood?.[0]);
+    const result = await orderDetails(
+      orderState.customerInfo,
+      orderState?.selectedFood?.[0],
+      orderState.address
+    );
+
+    orderState.orderObject = result.order;
+
+    return {
+      success: true,
+      result: result,
+    };
+  },
+});
+
+const processCardPayments = createTool({
+  description: "Process customers payment",
+  parameters: z.object({
+    cardInfo: z.object({
+      amount: z.any(),
+      number: z.string(),
+      expiration: z.string(),
+      securityCode: z.string(),
+      postalCode: z.string(),
+      tipAmount: z.number(),
+    }),
+  }),
+  execute: async ({ cardInfo }) => {
+    const result = await processPayment(orderState.orderObject, cardInfo);
+
+    return result;
+  },
+});
+
+const trackOrder = createTool({
+  description: "Track the status of an order",
+  parameters: z.object({
+    orderId: z.string().describe("The unique identifier for the order"),
+  }),
+  execute: async ({ orderId }) => {
+    // Mock logic to fetch order status
+    const statuses = ["Preparing", "Out for delivery", "Delivered"];
+    const randomStatus = statuses[Math.floor(Math.random() * statuses.length)];
+    return {
+      success: true,
+      orderId,
+      status: randomStatus,
+      estimatedDeliveryTime: new Date(Date.now() + 30 * 60000).toISOString(), // 30 minutes from now
+    };
+  },
+});
 
 export const tools = {
-  order,
+  selectFood,
+  selectNearbyStore,
+  getOrderDetails,
+  processCardPayments,
 };
