@@ -3,7 +3,6 @@ import { auth } from '@clerk/nextjs/server';
 import { redirect } from 'next/navigation';
 import { getChatMessages } from './(server)/data/messages';
 import { userInfo } from './(server)/data/user/user-info';
-import CreditCardForm from '@/components/credit-card';
 
 export default async function Home() {
   const { userId } = await auth()

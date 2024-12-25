@@ -41,7 +41,7 @@ export default function Chat({ userInfo, chatMessages }: {
 
   return (
     <>
-      <div className="flex flex-col w-full max-w-screen-md min-h-[80vh] px-4 my-[5rem]">
+      <div className="flex flex-col w-full max-w-screen-md min-h-[80vh] px-4 mt-[2rem] mb-[5rem]">
         {messages.map((m, index) => {
           console.log('m.toolInvocations', JSON.stringify(m.toolInvocations, null, 2))
 

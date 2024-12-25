@@ -45,6 +45,10 @@ export async function POST(req: Request) {
     `,
     tools,
     maxSteps: 5,
+    onStepFinish({ text, toolCalls, toolResults, finishReason, usage }) {
+      // your own logic, e.g. for saving the chat history or recording usage
+      console.log(text, toolCalls, toolResults, finishReason, usage);
+    },
     onFinish: ({ text, toolResults, toolCalls }) => {
       console.log("toolCalls", toolCalls);
 
