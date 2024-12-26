@@ -49,9 +49,9 @@ export default function Navbar() {
           <Link href="/profile">
             <h1 className="font-medium text-sm text-gray-700 hover:text-black">Profile</h1>
           </Link>
-          <Link href="/orders">
+          {/* <Link href="/orders">
             <h1 className="font-medium text-sm text-gray-700 hover:text-black">Orders</h1>
-          </Link>
+          </Link> */}
         </SignedIn>
       </div>
     </div>

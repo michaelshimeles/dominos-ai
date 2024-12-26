@@ -17,6 +17,7 @@ import { memo } from 'react';
 import ListStores from './list-stores';
 import { Markdown } from './markdown';
 import PizzaCard from './pizza-card';
+import { PaymentFormCard } from './payment-form';
 
 // Memoized message component
 const ChatMessage = memo(function ChatMessage({
@@ -61,6 +62,13 @@ const ChatMessage = memo(function ChatMessage({
               return (
                 <div key={index} className='flex mt-2 w-fit flex-col p-3 rounded-2xl justify-center items-start bg-gray-100'>
                   <ListStores stores={stores} />
+                </div>
+              );
+            }
+            if (toolInvocation.toolName === 'processCardPayments') {
+              return (
+                <div key={index} className='flex mt-2 w-fit flex-col p-3 rounded-2xl justify-center items-start bg-gray-100'>
+                  <PaymentFormCard />
                 </div>
               );
             }

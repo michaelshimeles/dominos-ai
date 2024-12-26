@@ -27,8 +27,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 17,
-        "Max": 27
+        "Min": 23,
+        "Max": 33
       },
       "Carryout": {
         "Min": 9,
@@ -83,8 +83,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 18,
-        "Max": 28
+        "Min": 15,
+        "Max": 25
       },
       "Carryout": {
         "Min": 9,
@@ -195,8 +195,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 23,
-        "Max": 33
+        "Min": 27,
+        "Max": 37
       },
       "Carryout": {
         "Min": 9,
@@ -251,8 +251,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 25,
-        "Max": 35
+        "Min": 22,
+        "Max": 32
       },
       "Carryout": {
         "Min": 9,
@@ -307,8 +307,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 21,
-        "Max": 31
+        "Min": 23,
+        "Max": 33
       },
       "Carryout": {
         "Min": 9,
@@ -363,8 +363,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 25,
-        "Max": 35
+        "Min": 14,
+        "Max": 24
       },
       "Carryout": {
         "Min": 9,
@@ -419,8 +419,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 25,
-        "Max": 35
+        "Min": 27,
+        "Max": 37
       },
       "Carryout": {
         "Min": 9,
@@ -475,8 +475,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 19,
-        "Max": 29
+        "Min": 25,
+        "Max": 35
       },
       "Carryout": {
         "Min": 9,
@@ -510,7 +510,7 @@
     "MaxDistance": null,
     "Phone": "416-516-4004",
     "AddressDescription": "1549 Dupont St\nToronto, ON M6P3S5\n",
-    "HolidaysDescription": "12/25 12:00pm-11:00pm",
+    "HolidaysDescription": "",
     "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
     "ServiceHoursDescription": {
       "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
@@ -531,8 +531,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 23,
-        "Max": 33
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 10,
@@ -546,10 +546,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": false,
+    "IsOpen": true,
     "ServiceIsOpen": {
-      "Carryout": false,
-      "Delivery": false,
+      "Carryout": true,
+      "Delivery": true,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -587,8 +587,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 21,
-        "Max": 31
+        "Min": 27,
+        "Max": 37
       },
       "Carryout": {
         "Min": 9,
@@ -643,12 +643,12 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 23,
-        "Max": 33
+        "Min": 24,
+        "Max": 34
       },
       "Carryout": {
-        "Min": 17,
-        "Max": 22
+        "Min": 9,
+        "Max": 14
       }
     },
     "StoreCoordinates": {
@@ -699,8 +699,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 17,
-        "Max": 27
+        "Min": 16,
+        "Max": 26
       },
       "Carryout": {
         "Min": 8,
@@ -734,7 +734,7 @@
     "MaxDistance": null,
     "Phone": "416-604-7255",
     "AddressDescription": "344 High Park Ave\nToronto, ON M6P2S7\n",
-    "HolidaysDescription": "12/25 12:00pm-11:00pm",
+    "HolidaysDescription": "",
     "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
     "ServiceHoursDescription": {
       "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
@@ -755,8 +755,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 18,
-        "Max": 28
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 9,
@@ -770,10 +770,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": false,
+    "IsOpen": true,
     "ServiceIsOpen": {
-      "Carryout": false,
-      "Delivery": false,
+      "Carryout": true,
+      "Delivery": true,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -811,8 +811,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 10,
-        "Max": 20
+        "Min": 31,
+        "Max": 41
       },
       "Carryout": {
         "Min": 9,
@@ -846,7 +846,7 @@
     "MaxDistance": null,
     "Phone": "416-404-8000",
     "AddressDescription": "1131 Queen St E\nToronto, ON M4M1K9\n",
-    "HolidaysDescription": "12/25 3:00pm-11:00pm",
+    "HolidaysDescription": "",
     "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
     "ServiceHoursDescription": {
       "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
@@ -867,8 +867,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 14,
-        "Max": 24
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 9,
@@ -902,7 +902,7 @@
     "MaxDistance": null,
     "Phone": "416-778-7800",
     "AddressDescription": "873 Danforth Ave\nToronto, ON M4J1L8\n",
-    "HolidaysDescription": "12/25 11:00am-11:00pm",
+    "HolidaysDescription": "",
     "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
     "ServiceHoursDescription": {
       "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
@@ -923,8 +923,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 18,
-        "Max": 28
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 9,
@@ -1014,7 +1014,7 @@
     "MaxDistance": null,
     "Phone": "416-251-0999",
     "AddressDescription": "2811 Lake Shore Blvd W\nEtobicoke, ON M8V1H6\n",
-    "HolidaysDescription": "12/25 10:30am-10:00pm\n12/31 10:30am-2:00am",
+    "HolidaysDescription": "12/31 10:30am-2:00am",
     "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
     "ServiceHoursDescription": {
       "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
@@ -1050,10 +1050,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": false,
+    "IsOpen": true,
     "ServiceIsOpen": {
-      "Carryout": false,
-      "Delivery": false,
+      "Carryout": true,
+      "Delivery": true,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -1070,7 +1070,7 @@
     "MaxDistance": null,
     "Phone": "416-237-1290",
     "AddressDescription": "4204 Dundas St W\nToronto, ON M8X1Y6\n",
-    "HolidaysDescription": "12/25 12:00pm-11:00pm",
+    "HolidaysDescription": "",
     "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
     "ServiceHoursDescription": {
       "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
@@ -1091,8 +1091,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 20,
-        "Max": 30
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 10,
@@ -1147,8 +1147,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 24,
-        "Max": 34
+        "Min": 20,
+        "Max": 30
       },
       "Carryout": {
         "Min": 9,
@@ -1203,8 +1203,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 21,
-        "Max": 31
+        "Min": 17,
+        "Max": 27
       },
       "Carryout": {
         "Min": 9,
@@ -1259,8 +1259,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 22,
-        "Max": 32
+        "Min": 21,
+        "Max": 31
       },
       "Carryout": {
         "Min": 9,
@@ -1386,10 +1386,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -1427,8 +1427,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 20,
-        "Max": 30
+        "Min": 18,
+        "Max": 28
       },
       "Carryout": {
         "Min": 8,
@@ -1483,8 +1483,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 20,
-        "Max": 35
+        "Min": 23,
+        "Max": 38
       },
       "Carryout": {
         "Min": 10,
@@ -1539,8 +1539,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 22,
-        "Max": 32
+        "Min": 15,
+        "Max": 25
       },
       "Carryout": {
         "Min": 8,
@@ -1595,12 +1595,12 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 25,
-        "Max": 35
+        "Min": 33,
+        "Max": 43
       },
       "Carryout": {
-        "Min": 29,
-        "Max": 34
+        "Min": 10,
+        "Max": 15
       }
     },
     "StoreCoordinates": {
@@ -1651,12 +1651,12 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 23,
-        "Max": 33
+        "Min": 25,
+        "Max": 35
       },
       "Carryout": {
-        "Min": 11,
-        "Max": 16
+        "Min": 8,
+        "Max": 13
       }
     },
     "StoreCoordinates": {
@@ -1707,8 +1707,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 26,
-        "Max": 36
+        "Min": 17,
+        "Max": 27
       },
       "Carryout": {
         "Min": 9,
@@ -1763,8 +1763,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 33,
-        "Max": 43
+        "Min": 23,
+        "Max": 33
       },
       "Carryout": {
         "Min": 9,
@@ -1778,10 +1778,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -1819,8 +1819,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 30,
-        "Max": 40
+        "Min": 23,
+        "Max": 33
       },
       "Carryout": {
         "Min": 9,
@@ -1875,12 +1875,12 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 19,
-        "Max": 29
+        "Min": 28,
+        "Max": 38
       },
       "Carryout": {
-        "Min": 16,
-        "Max": 21
+        "Min": 17,
+        "Max": 22
       }
     },
     "StoreCoordinates": {
@@ -1890,10 +1890,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -1910,7 +1910,7 @@
     "MaxDistance": null,
     "Phone": "905-891-7878",
     "AddressDescription": "645 Lakeshore Rd E\nMississauga, ON L5G1J5\n",
-    "HolidaysDescription": "12/25 12:00pm-10:30pm",
+    "HolidaysDescription": "",
     "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
     "ServiceHoursDescription": {
       "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
@@ -1931,8 +1931,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 31,
-        "Max": 41
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 10,
@@ -1987,8 +1987,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 25,
-        "Max": 35
+        "Min": 27,
+        "Max": 37
       },
       "Carryout": {
         "Min": 9,
@@ -2058,10 +2058,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -2099,12 +2099,12 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 25,
-        "Max": 35
+        "Min": 29,
+        "Max": 39
       },
       "Carryout": {
-        "Min": 14,
-        "Max": 21
+        "Min": 9,
+        "Max": 16
       }
     },
     "StoreCoordinates": {
@@ -2155,8 +2155,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 30,
-        "Max": 40
+        "Min": 18,
+        "Max": 28
       },
       "Carryout": {
         "Min": 9,
@@ -2170,10 +2170,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "AVAILABLE",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -2226,10 +2226,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -2323,8 +2323,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 22,
-        "Max": 32
+        "Min": 26,
+        "Max": 36
       },
       "Carryout": {
         "Min": 10,
@@ -2491,8 +2491,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 10,
-        "Max": 20
+        "Min": 23,
+        "Max": 33
       },
       "Carryout": {
         "Min": 10,
@@ -2506,10 +2506,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -2545,8 +2545,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 10,
-        "Max": 20
+        "Min": 22,
+        "Max": 32
       },
       "Carryout": {
         "Min": 9,
@@ -2560,10 +2560,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "AVAILABLE",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -2601,8 +2601,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 27,
-        "Max": 42
+        "Min": 29,
+        "Max": 44
       },
       "Carryout": {
         "Min": 9,
@@ -2657,8 +2657,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 33,
-        "Max": 43
+        "Min": 23,
+        "Max": 33
       },
       "Carryout": {
         "Min": 9,
@@ -2672,10 +2672,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -2713,8 +2713,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 30,
-        "Max": 40
+        "Min": 33,
+        "Max": 43
       },
       "Carryout": {
         "Min": 9,
@@ -2728,10 +2728,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -2881,8 +2881,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 27,
-        "Max": 37
+        "Min": 42,
+        "Max": 52
       },
       "Carryout": {
         "Min": 9,
@@ -2896,10 +2896,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -2937,12 +2937,12 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 21,
-        "Max": 31
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
-        "Min": 12,
-        "Max": 17
+        "Min": 10,
+        "Max": 15
       }
     },
     "StoreCoordinates": {
@@ -2952,10 +2952,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "AVAILABLE",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -2993,8 +2993,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 22,
-        "Max": 32
+        "Min": 25,
+        "Max": 35
       },
       "Carryout": {
         "Min": 9,
@@ -3008,10 +3008,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -3105,8 +3105,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 18,
-        "Max": 33
+        "Min": 24,
+        "Max": 39
       },
       "Carryout": {
         "Min": 8,
@@ -3120,10 +3120,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -3161,8 +3161,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 32,
-        "Max": 42
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 9,
@@ -3217,8 +3217,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 28,
-        "Max": 38
+        "Min": 20,
+        "Max": 30
       },
       "Carryout": {
         "Min": 11,
@@ -3232,10 +3232,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -3273,8 +3273,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 26,
-        "Max": 36
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 9,
@@ -3288,10 +3288,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -3329,8 +3329,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 12,
-        "Max": 22
+        "Min": 16,
+        "Max": 26
       },
       "Carryout": {
         "Min": 9,
@@ -3344,10 +3344,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -3385,12 +3385,12 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 23,
-        "Max": 28
+        "Min": 31,
+        "Max": 36
       },
       "Carryout": {
-        "Min": 12,
-        "Max": 17
+        "Min": 19,
+        "Max": 24
       }
     },
     "StoreCoordinates": {
@@ -3400,10 +3400,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -3420,7 +3420,7 @@
     "MaxDistance": null,
     "Phone": "905-569-9900",
     "AddressDescription": "3405 Glen Erin Dr Unit 3\nMississauga, ON L5L3S2\n",
-    "HolidaysDescription": "12/25 12:00pm-10:00pm",
+    "HolidaysDescription": "",
     "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
     "ServiceHoursDescription": {
       "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
@@ -3456,10 +3456,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": false,
+    "IsOpen": true,
     "ServiceIsOpen": {
-      "Carryout": false,
-      "Delivery": false,
+      "Carryout": true,
+      "Delivery": true,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -3497,8 +3497,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 20,
-        "Max": 30
+        "Min": 14,
+        "Max": 24
       },
       "Carryout": {
         "Min": 9,
@@ -3512,10 +3512,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -3557,8 +3557,8 @@
         "Max": 38
       },
       "Carryout": {
-        "Min": 14,
-        "Max": 19
+        "Min": 10,
+        "Max": 15
       }
     },
     "StoreCoordinates": {
@@ -3663,8 +3663,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 26,
-        "Max": 31
+        "Min": 32,
+        "Max": 37
       },
       "Carryout": {
         "Min": 9,
@@ -3719,8 +3719,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 17,
-        "Max": 22
+        "Min": 13,
+        "Max": 18
       },
       "Carryout": {
         "Min": 9,
@@ -3775,8 +3775,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 18,
-        "Max": 28
+        "Min": 15,
+        "Max": 25
       },
       "Carryout": {
         "Min": 9,
@@ -3790,10 +3790,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -3831,8 +3831,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 19,
-        "Max": 24
+        "Min": 10,
+        "Max": 15
       },
       "Carryout": {
         "Min": 9,
@@ -3846,10 +3846,10 @@
     "AllowPickupWindowOrders": false,
     "ContactlessDelivery": "DISABLED",
     "ContactlessCarryout": "DISABLED",
-    "IsOpen": true,
+    "IsOpen": false,
     "ServiceIsOpen": {
-      "Carryout": true,
-      "Delivery": true,
+      "Carryout": false,
+      "Delivery": false,
       "DriveUpCarryout": false
     },
     "Address": {
@@ -3887,8 +3887,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 17,
-        "Max": 27
+        "Min": 18,
+        "Max": 28
       },
       "Carryout": {
         "Min": 9,
@@ -3947,8 +3947,8 @@
         "Max": 31
       },
       "Carryout": {
-        "Min": 14,
-        "Max": 17
+        "Min": 11,
+        "Max": 14
       }
     },
     "StoreCoordinates": {

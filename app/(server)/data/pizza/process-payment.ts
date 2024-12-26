@@ -1,6 +1,4 @@
-const {
-  Payment,
-} = require("dominos");
+const { Payment } = require("dominos");
 
 export async function processPayment(order: any, paymentDetails: any) {
   try {
