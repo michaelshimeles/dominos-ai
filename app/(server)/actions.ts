@@ -28,8 +28,6 @@ export async function submitOrder(prevState: any, formData: FormData) {
     unitType: formData.get("unitType"),
   });
 
-  console.log("formData", formData);
-
   if (!validatedFields.success) {
     return {
       errors: validatedFields.error.flatten().fieldErrors,

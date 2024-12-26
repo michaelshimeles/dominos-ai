@@ -14,6 +14,7 @@ interface PizzaOptions {
       [key: string]: string;
     };
   };
+  imageUrl: string;
 }
 
 export async function selectPizza(items: any) {
@@ -23,6 +24,8 @@ export async function selectPizza(items: any) {
       X: { "1/1": "1" }, // Normal sauce
       C: { "1/1": "1" }, // Normal cheese
     },
+    imageUrl:
+      "https://utfs.io/f/MD2AM9SEY8GuBux3XEakxMSiqFhG9jDJ1pTnAyrs7dLzNfbR",
   };
 
   // Pepperoni pizza with extra cheese
@@ -33,6 +36,8 @@ export async function selectPizza(items: any) {
       C: { "1/1": "1.5" }, // Extra cheese
       P: { "1/1": "1" }, // Normal pepperoni
     },
+    imageUrl:
+      "https://utfs.io/f/MD2AM9SEY8GuiIVGtAZhtDiOImje5H1afukBxNP97Sg8yhGZ",
   };
 
   // Hawaiian pizza
@@ -44,6 +49,8 @@ export async function selectPizza(items: any) {
       H: { "1/1": "1" }, // Ham
       N: { "1/1": "1" }, // Pineapple
     },
+    imageUrl:
+      "https://utfs.io/f/MD2AM9SEY8Gunz9Y87OEckiM8Fp203uOvNCTDytGXS1aJZod",
   };
 
   // Supreme pizza
@@ -58,6 +65,8 @@ export async function selectPizza(items: any) {
       O: { "1/1": "1" }, // Onions
       G: { "1/1": "1" }, // Green Peppers
     },
+    imageUrl:
+      "https://utfs.io/f/MD2AM9SEY8GuUb9wzscy1EAvBgi8ZhTnmtPFsYIb4cQ2SuRH",
   };
 
   const itemsOrder = items.map((item: any) => {
@@ -71,6 +80,7 @@ export async function selectPizza(items: any) {
           : item?.name === "basicCheese"
           ? basicCheese.options
           : pepperoniExtraCheese.options,
+      imageUrl: item?.imageUrl,
     };
   });
 

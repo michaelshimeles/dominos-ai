@@ -16,10 +16,8 @@ export default async function selectLocation({ customerInfo }: any) {
     unitType: customerInfo.unitType,
   });
 
-  console.log("customer", customer);
 
   const nearbyStores = await new NearbyStores(customer.address);
-  console.log("Nearby Stores:", nearbyStores?.["stores"]?.[0]?.["StoreID"]);
 
   try {
     // Create a 'stores' directory if it doesn't exist
@@ -31,11 +29,10 @@ export default async function selectLocation({ customerInfo }: any) {
     // Write to stores.json inside the stores directory
     const filePath = path.join(storesDir, 'stores.json');
     fs.writeFileSync(filePath, JSON.stringify(nearbyStores?.["stores"], null, 2));
-    console.log(`Successfully wrote stores data to ${filePath}`);
   } catch (error) {
     console.error('Error writing to file:', error);
     // Continue execution even if file write fails
   }
 
-  return nearbyStores?.["stores"]?.[0]?.["StoreID"];
+  return nearbyStores?.["stores"];
 }

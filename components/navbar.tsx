@@ -1,7 +1,8 @@
 "use client"
+import { SignedIn } from "@clerk/nextjs";
+import gsap from "gsap";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
-import gsap from "gsap";
 
 export default function Navbar() {
 
@@ -38,18 +39,20 @@ export default function Navbar() {
 
 
   return (
-    <div className='flex justify-between items-center w-full  px-4 py-3 border-b'>
+    <div className='flex fixed top-0 justify-between items-center w-full px-4 py-3 border-b bg-white z-[99]'>
       <Link href="/" className="flex items-center gap-2">
         <span>🍕 </span>
         <h1 className='font-semibold text-lg' ref={textRef}>AI Pizza Agent</h1>
       </Link>
       <div className="flex justify-end items-center gap-6">
-        <Link href="/profile">
-          <h1 className="font-medium text-sm text-gray-700 hover:text-black">Profile</h1>
-        </Link>
-        <Link href="/orders">
-          <h1 className="font-medium text-sm text-gray-700 hover:text-black">Orders</h1>
-        </Link>
+        <SignedIn>
+          <Link href="/profile">
+            <h1 className="font-medium text-sm text-gray-700 hover:text-black">Profile</h1>
+          </Link>
+          <Link href="/orders">
+            <h1 className="font-medium text-sm text-gray-700 hover:text-black">Orders</h1>
+          </Link>
+        </SignedIn>
       </div>
     </div>
 

@@ -50,7 +50,6 @@ export async function POST(req: Request) {
       console.log(text, toolCalls, toolResults, finishReason, usage);
     },
     onFinish: ({ text, toolResults, toolCalls }) => {
-      console.log("toolCalls", toolCalls);
 
       for (const toolResult of toolResults) {
         console.log("toolResult", toolResult);

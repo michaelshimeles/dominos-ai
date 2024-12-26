@@ -5,11 +5,9 @@ import { Webhook } from "svix";
 import { userCreate } from "../../data/user/user-create";
 
 export async function POST(req: Request) {
-  console.log("FIRED");
   const WEBHOOK_SECRET = process.env.CLERK_WEBHOOK_SECRET;
 
   if (!WEBHOOK_SECRET) {
-    console.log("WEBHOOK FAILED");
 
     throw new Error(
       "Please add WEBHOOK_SECRET from Clerk Dashboard to .env or .env.local"
@@ -24,7 +22,6 @@ export async function POST(req: Request) {
 
   // If there are no headers, error out
   if (!svix_id || !svix_timestamp || !svix_signature) {
-    console.log("WEBHOOK FAILED 2");
 
     return NextResponse.json("Error occured -- no svix headers", {
       status: 400,
@@ -67,7 +64,6 @@ export async function POST(req: Request) {
         user_id: payload?.data?.id,
       });
 
-      console.log("response", response);
     } catch (error) {
       return NextResponse.json({
         status: 400,

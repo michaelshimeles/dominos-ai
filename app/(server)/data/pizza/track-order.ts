@@ -1,13 +1,4 @@
-const {
-  Customer,
-  NearbyStores,
-  Order,
-  Item,
-  Payment,
-  Tracking,
-  Menu,
-  Image,
-} = require("dominos");
+const { Tracking } = require("dominos");
 
 export default async function trackOrder(customer: any) {
   const tracking = new Tracking();

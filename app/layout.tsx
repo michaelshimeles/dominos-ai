@@ -4,6 +4,8 @@ import { Analytics } from "@vercel/analytics/react";
 import { GeistSans } from 'geist/font/sans';
 import type { Metadata } from "next";
 import "./globals.css";
+import 'mapbox-gl/dist/mapbox-gl.css';
+
 
 
 export const metadata: Metadata = {

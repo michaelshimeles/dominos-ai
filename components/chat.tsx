@@ -13,7 +13,65 @@ import { useChat } from 'ai/react';
 import { Send } from 'lucide-react';
 import Image from "next/image";
 import Link from 'next/link';
-import CreditCardForm from './credit-card';
+import { memo } from 'react';
+import ListStores from './list-stores';
+import { Markdown } from './markdown';
+import PizzaCard from './pizza-card';
+
+// Memoized message component
+const ChatMessage = memo(function ChatMessage({
+  message,
+  userInfo
+}: {
+  message: any,
+  userInfo: any
+}) {
+
+  if (message.content) {
+    return (
+      <div className={message.role === 'user' ? 'flex items-start w-full gap-2 mb-4 justify-end' : 'flex items-start w-full gap-2 mb-4 justify-start'}>
+        <div className="w-8 h-8 rounded-full overflow-hidden flex-shrink-0">
+          <Image
+            src={message.role === "user" ? userInfo?.profile_image_url! : "https://utfs.io/f/MD2AM9SEY8GucPis22p5qyE7FjNDKYduLOG2QHWh3f5RgSi0"}
+            alt="User"
+            width={32}
+            height={32}
+            quality={95}
+            sizes={"48px"}
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div>
+          <div className={`${message.role !== "user" ? "bg-gray-100 max-w-[70%]" : "bg-black text-white"} flex flex-col rounded-2xl p-3 max-w-[350px] w-full`}>
+            <Markdown>{message.content}</Markdown>
+          </div>
+          {message.toolInvocations?.map((toolInvocation: any, index: number) => {
+            console.log('toolInvocation.toolName', toolInvocation.toolName)
+            if (toolInvocation.toolName === 'selectFood') {
+              // const stores = toolInvocation?.result?.result?.storeInfo;
+              return (
+                <div key={index} className='flex mt-2 w-fit flex-col p-3 rounded-2xl justify-center items-start bg-gray-100'>
+                  <PizzaCard title={'Welcome'} description={'This is pizza land'} image={'https://utfs.io/f/MD2AM9SEY8Gunz9Y87OEckiM8Fp203uOvNCTDytGXS1aJZod'} />
+                </div>
+              );
+            }
+
+            if (toolInvocation.toolName === 'selectNearbyStore') {
+              const stores = toolInvocation?.result?.result?.storeInfo;
+              return (
+                <div key={index} className='flex mt-2 w-fit flex-col p-3 rounded-2xl justify-center items-start bg-gray-100'>
+                  <ListStores stores={stores} />
+                </div>
+              );
+            }
+            return null;
+          })}
+        </div>
+      </div>
+    );
+  }
+
+});
 
 export default function Chat({ userInfo, chatMessages }: {
   userInfo?: {
@@ -25,68 +83,27 @@ export default function Chat({ userInfo, chatMessages }: {
     createdAt: Date | null,
     profile_image_url: string | null
   },
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   chatMessages?: any,
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
 }) {
-  const { signOut } = useClerk()
-
-
+  const { signOut } = useClerk();
   const { messages, input, handleInputChange, handleSubmit } = useChat({
     body: {
       userInfo
     },
     initialMessages: chatMessages,
+    id: "store-select",
   });
 
   return (
     <>
-      <div className="flex flex-col w-full max-w-screen-md min-h-[80vh] px-4 mt-[2rem] mb-[5rem]">
-        {messages.map((m, index) => {
-          console.log('m.toolInvocations', JSON.stringify(m.toolInvocations, null, 2))
-
-          return (<main key={index}>
-            <div className={m.role === 'user' ? 'flex items-start w-full gap-2 mb-4 justify-end' : 'flex items-start w-full gap-2 mb-4 justify-start'}>
-              <div className="w-8 h-8 rounded-full overflow-hidden flex-shrink-0">
-                <Image
-                  src={m.role === "user" ? userInfo?.profile_image_url! : "https://utfs.io/f/MD2AM9SEY8GucPis22p5qyE7FjNDKYduLOG2QHWh3f5RgSi0"}
-                  alt="User"
-                  width={32}
-                  height={32}
-                  quality={95}
-                  sizes={"48px"}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className={`${m.role !== "user" ? "bg-gray-100" : "bg-black text-white"} flex flex-col rounded-2xl p-3 max-w-[80%]`}>
-                <p>
-                  {m.content}
-
-                </p>
-                {m.toolInvocations?.map(toolInvocation => {
-                  const { toolName, toolCallId, state } = toolInvocation;
-                  console.log('toolName', toolName)
-                  console.log('toolCallId', toolCallId)
-                  console.log('state', state)
-
-                  if (toolName === 'order') {
-                    // Render the form immediately when payment is requested
-                    return (
-                      <div className='flex justify-start items-start mt-[1rem]' key={toolCallId}>
-                        <CreditCardForm userInfo={userInfo} messages={messages} />
-                      </div>
-                    );
-                  }
-                  return null;
-                })}
-              </div>
-            </div>
-          </main>)
-        })}
+      <div className="flex flex-col w-full max-w-screen-md min-h-[80vh] px-4 mt-[5rem] mb-[5rem]">
+        {messages.map((message, index) => (
+          <main key={index}>
+            <ChatMessage message={message} userInfo={userInfo} />
+          </main>
+        ))}
       </div>
-
-      {/* Footer */}
-      <footer className="p-2 w-full bg-white fixed bottom-0">
+      <div className="p-2 w-full bg-white fixed bottom-0" >
         <div className="flex justify-center items-end gap-4 w-full">
           <div className='hidden lg:flex items-end justify-start space-x-4 w-full '>
             <Link href="https://rasmic.xyz" target='_blank' className="text-xs font-semibold ">rasmic.xyz © 2024</Link>
@@ -135,7 +152,7 @@ export default function Chat({ userInfo, chatMessages }: {
             <Link target='_blank' href="https://www.youtube.com/@rasmic" className="text-xs font-semibold hover:underline">YouTube ↗</Link>
           </div>
         </div>
-      </footer>
+      </div>
     </>
-  )
+  );
 }

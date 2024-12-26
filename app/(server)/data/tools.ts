@@ -18,7 +18,7 @@ interface OrderState {
 let orderState: OrderState = {};
 
 const selectFood = createTool({
-  description: "Allow the user to select food items",
+  description: "Share the available food items and allow users to select",
   parameters: z.object({
     items: z.array(
       z.object({
@@ -42,7 +42,8 @@ const selectFood = createTool({
 });
 
 const selectNearbyStore = createTool({
-  description: "Find the nearest pizza location to order from",
+  description: `Find the 2 nearest pizza location to order from
+    and let user select the store they are going to order from`,
   parameters: z.object({
     customerInfo: z.object({
       address: z.string(),
@@ -56,15 +57,15 @@ const selectNearbyStore = createTool({
   }),
   execute: async ({ customerInfo }) => {
     try {
-      const storeId = await selectLocation({ customerInfo });
+      const stores = await selectLocation({ customerInfo });
 
-      orderState.address = storeId;
+      orderState.address = stores?.[0]?.["StoreID"];
       orderState.customerInfo = customerInfo;
       return {
         success: true,
         result: {
           address: customerInfo.address,
-          storeInfo: storeId,
+          storeInfo: stores,
         },
       };
     } catch (error) {

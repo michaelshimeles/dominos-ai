@@ -40,7 +40,6 @@ export default function CreditCardForm({ userInfo, messages }: any) {
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true)
-    console.log("ENTER")
     // Simulate API call
     try {
 
@@ -71,7 +70,6 @@ export default function CreditCardForm({ userInfo, messages }: any) {
       setIsSubmitting(false)
 
       const result = await response.json()
-      console.log('result', result)
       return result
 
     } catch (error) {
