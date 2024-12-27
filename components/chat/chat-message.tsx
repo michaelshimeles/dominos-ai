@@ -19,22 +19,28 @@ export default memo(function ChatMessage({
 }) {
 
   return (
-    <div className={message.role === 'user' ? 'flex items-start w-full gap-2 mb-4 justify-end' : 'flex items-start w-full gap-2 mb-4 justify-start'}>
-      <div className="w-8 h-8 rounded-full overflow-hidden flex-shrink-0">
+    <div className={message.role === 'user' ? 'flex items-start w-full gap-2 mb-[8px] justify-end' : 'flex items-start w-full gap-2 mb-[8px] justify-start'}>
+      <div className="w-7 h-7 rounded-full overflow-hidden flex-shrink-0">
         <Image
           src={message.role === "user" ? userInfo?.profile_image_url! : "https://fal.media/files/tiger/BDi3ce5HjvoM_kemH8SoC_d582395b8328469f8627628886318a08.jpg"}
           alt="User"
-          width={32}
-          height={32}
+          width={28}
+          height={28}
           quality={100}
-          sizes={"48px"}
+          sizes={"28px"}
           className="w-full h-full object-cover"
         />
       </div>
       <div>
         {message.content && (
-          <div className={`${message.role !== "user" ? "dark:bg-zinc-800 max-w-[70%]" : "bg-black text-white"} flex flex-col rounded-2xl p-3 max-w-[350px] w-full border dark:border-zinc-900`}>
-            <Markdown>{message.content}</Markdown>
+          <div className={`${
+            message.role === "user"
+              ? "bg-[#007AFF] text-white rounded-[20px] rounded-tr-[4px]"
+              : "bg-[#E9E9EB] dark:bg-[#1C1C1E] text-black dark:text-white rounded-[20px] rounded-tl-[4px]"
+          } flex flex-col px-[12px] py-[8px] max-w-[280px] w-fit leading-[1.35]`}>
+            <div className="text-[14px] py-1">
+              <Markdown>{message.content}</Markdown>
+            </div>
           </div>
         )}
         {message.toolInvocations?.map((toolInvocation: any, toolIndex: number) => {
