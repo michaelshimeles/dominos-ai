@@ -33,11 +33,10 @@ export default memo(function ChatMessage({
       </div>
       <div>
         {message.content && (
-          <div className={`${
-            message.role === "user"
+          <div className={`${message.role === "user"
               ? "bg-[#007AFF] text-white rounded-[20px] rounded-tr-[4px]"
               : "bg-[#E9E9EB] dark:bg-[#1C1C1E] text-black dark:text-white rounded-[20px] rounded-tl-[4px]"
-          } flex flex-col px-[12px] py-[8px] max-w-[280px] w-fit leading-[1.35]`}>
+            } flex flex-col px-[12px] py-[8px] max-w-[280px] w-fit leading-[1.35]`}>
             <div className="text-[14px] py-1">
               <Markdown>{message.content}</Markdown>
             </div>
@@ -45,9 +44,7 @@ export default memo(function ChatMessage({
         )}
         {message.toolInvocations?.map((toolInvocation: any, toolIndex: number) => {
           const toolName = toolInvocation?.toolName;
-
-          console.log('toolInvocation?.result?.orderItems', toolInvocation?.result?.orderItems)
-
+          console.log('toolName', toolName)
           switch (toolName) {
             case 'displayFood':
               return (
@@ -71,10 +68,11 @@ export default memo(function ChatMessage({
                 </div>
               );
 
-            case 'processCardPayments':
+            case 'getOrderDetails':
+              console.log("toolInvocation", toolInvocation?.result?.result?.order?.amountsBreakdown?.customer)
               return (
                 <div key={`tool-${toolIndex}`} className='flex mt-2 w-fit flex-col p-3 rounded-2xl justify-center items-start dark:bg-zinc-800'>
-                  <PaymentFormCard />
+                  <PaymentFormCard amount={toolInvocation?.result?.result?.order?.amountsBreakdown?.customer} />
                 </div>
               );
 
