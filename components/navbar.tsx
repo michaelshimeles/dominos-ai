@@ -40,7 +40,7 @@ export default function Navbar() {
 
 
   return (
-    <div className='flex fixed top-0 justify-between items-center w-full dark:bg-[#0a0a0b] px-4 py-3 z-[50] border-b border-b-zinc-900'>
+    <div className='flex fixed top-0 justify-between items-center w-full dark:bg-[#0a0a0b] bg-white px-4 py-3 z-[50] border-b dark:border-b-zinc-900'>
       <Link href="/" className="flex items-center gap-2">
         <span>🍕 </span>
         <h1 className='font-semibold text-lg' ref={textRef}>AI Pizza Agent</h1>

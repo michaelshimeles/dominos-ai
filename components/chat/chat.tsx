@@ -47,7 +47,7 @@ export default function Chat({ userInfo, chatMessages }: {
 
   return (
     <>
-      <div className="flex flex-col w-full max-w-screen-md h-[calc(100vh)] px-4 mt-[5rem] mb-[5rem] overflow-y-auto scrollbar-hide">
+      <div className="flex flex-col w-full max-w-screen-md h-[calc(100vh)] px-4 mt-[5rem] pb-[5rem] overflow-y-auto scrollbar-hide">
         {messages.map((message, index) => (
           <main key={index}>
             <ChatMessage message={message} isLoading={isLoading} userInfo={userInfo} />
@@ -55,8 +55,8 @@ export default function Chat({ userInfo, chatMessages }: {
         ))}
         <div ref={messagesEndRef} />
       </div>
-      <div className="p-2 w-full dark:bg-[#0a0a0b] z-[99] fixed bottom-0 border-t border-t-zinc-900" >
-        <div className="flex justify-center items-end gap-4 w-full">
+      <div className="p-2 w-full dark:bg-[#0a0a0b] bg-white z-[99] fixed bottom-0 border-t  dark:border-t-zinc-900" >
+        <div className="flex justify-center items-end gap-4 w-full ">
           <div className='hidden lg:flex items-end justify-start space-x-4 w-full '>
             <Link href="https://rasmic.xyz" target='_blank' className="text-xs font-semibold ">rasmic.xyz © 2024</Link>
             <Link href="/profile" className="text-xs font-semibold hover:underline">profile ↗</Link>
@@ -90,7 +90,7 @@ export default function Chat({ userInfo, chatMessages }: {
               <input
                 type="text"
                 placeholder="Message"
-                className="w-full px-4 py-2 rounded-full dark:bg-zinc-800 focus:outline-none"
+                className="w-full px-4 py-2 border rounded-full dark:bg-zinc-800 focus:outline-none"
                 value={input}
                 onChange={handleInputChange}
               />
