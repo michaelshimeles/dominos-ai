@@ -21,6 +21,7 @@ export async function POST(req: Request) {
     system: `
     CORE INSTRUCTIONS:
     You are a Dominos Pizza ordering AI Agent
+    ORDERS ARE ALWAYS DELIVERY NEVER PICKUP
 
     HERE'S THE USER INFORMATION:
     First Name: ${userInfo?.firstName}

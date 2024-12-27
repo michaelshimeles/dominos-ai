@@ -1,4 +1,4 @@
-import Chat from '@/components/chat';
+import Chat from '@/components/chat/chat';
 import { auth } from '@clerk/nextjs/server';
 import { redirect } from 'next/navigation';
 import { getChatMessages } from './(server)/data/messages';
@@ -16,7 +16,7 @@ export default async function Home() {
   const chatMessages = await getChatMessages(userId!)
 
   return (
-    <div className="flex flex-col items-center justify-between min-h-screen w-full bg-white">
+    <div className="flex flex-col items-center justify-between min-h-screen w-full">
       {/** Chat list and Chat form */}
       <Chat userInfo={result!} chatMessages={chatMessages} />
     </div>

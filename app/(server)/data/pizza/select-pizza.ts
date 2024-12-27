@@ -15,6 +15,7 @@ interface PizzaOptions {
     };
   };
   imageUrl: string;
+  description: string;
 }
 
 export async function selectPizza(items: any) {
@@ -26,6 +27,8 @@ export async function selectPizza(items: any) {
     },
     imageUrl:
       "https://utfs.io/f/MD2AM9SEY8GuBux3XEakxMSiqFhG9jDJ1pTnAyrs7dLzNfbR",
+    description:
+      "Classic and simple, just cheese on a delicious crust. Perfect for cheese lovers!",
   };
 
   // Pepperoni pizza with extra cheese
@@ -38,6 +41,8 @@ export async function selectPizza(items: any) {
     },
     imageUrl:
       "https://utfs.io/f/MD2AM9SEY8GuiIVGtAZhtDiOImje5H1afukBxNP97Sg8yhGZ",
+    description:
+      "A step up from the basic, with loads of pepperoni and extra cheese. It's a fan favorite!",
   };
 
   // Hawaiian pizza
@@ -51,6 +56,8 @@ export async function selectPizza(items: any) {
     },
     imageUrl:
       "https://utfs.io/f/MD2AM9SEY8Gunz9Y87OEckiM8Fp203uOvNCTDytGXS1aJZod",
+    description:
+      "If you're into the sweet and savory combo, this one's for you. It's got ham and pineapple on it.",
   };
 
   // Supreme pizza
@@ -67,9 +74,12 @@ export async function selectPizza(items: any) {
     },
     imageUrl:
       "https://utfs.io/f/MD2AM9SEY8GuUb9wzscy1EAvBgi8ZhTnmtPFsYIb4cQ2SuRH",
+    description:
+      "This one's got it all! Pepperoni, sausage, veggies, and more. It's a full-on flavor explosion.",
   };
 
   const itemsOrder = items.map((item: any) => {
+    console.log("item", item);
     return {
       code: item?.size,
       options:
@@ -80,7 +90,30 @@ export async function selectPizza(items: any) {
           : item?.name === "basicCheese"
           ? basicCheese.options
           : pepperoniExtraCheese.options,
-      imageUrl: item?.imageUrl,
+      name:
+        item?.name === "supreme"
+          ? "Supreme"
+          : item?.name === "hawaiian"
+          ? "Hawaiian"
+          : item?.name === "basicCheese"
+          ? "Classic Cheese"
+          : "Pepperoni Extra Cheese",
+      imageUrl:
+        item?.name === "supreme"
+          ? supreme.imageUrl
+          : item?.name === "hawaiian"
+          ? hawaiian.imageUrl
+          : item?.name === "basicCheese"
+          ? basicCheese.imageUrl
+          : pepperoniExtraCheese.imageUrl,
+      description:
+        item?.name === "supreme"
+          ? supreme.description
+          : item?.name === "hawaiian"
+          ? hawaiian.description
+          : item?.name === "basicCheese"
+          ? basicCheese.description
+          : pepperoniExtraCheese.description,
     };
   });
 

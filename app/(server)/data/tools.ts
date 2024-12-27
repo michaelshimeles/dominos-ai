@@ -17,8 +17,8 @@ interface OrderState {
 
 let orderState: OrderState = {};
 
-const selectFood = createTool({
-  description: "Share the available food items and allow users to select",
+const displayFood = createTool({
+  description: "Share what available pizza's exist using PizzaCard, please do not render the pizza images",
   parameters: z.object({
     items: z.array(
       z.object({
@@ -35,7 +35,7 @@ const selectFood = createTool({
   }),
   execute: async ({ items }) => {
     // Logic to process food selection
-    const result = await selectPizza(items);
+    const result = await selectPizza(items)
     orderState.selectedFood = result;
     return { success: true, orderItems: result };
   },
@@ -78,9 +78,12 @@ const selectNearbyStore = createTool({
 });
 
 const getOrderDetails = createTool({
-  description: "Get the order details like amount due",
+  description: "Get the order details like amount due and share with user",
   parameters: z.object({}),
   execute: async () => {
+    console.log('orderState.customerInfo', orderState.customerInfo)
+    console.log('orderState.selectedFood', orderState.selectedFood)
+    console.log('orderState.address', orderState.address)
     if (
       !orderState.customerInfo ||
       !orderState.selectedFood ||
@@ -144,7 +147,7 @@ const trackOrder = createTool({
 });
 
 export const tools = {
-  selectFood,
+  displayFood,
   selectNearbyStore,
   getOrderDetails,
   processCardPayments,

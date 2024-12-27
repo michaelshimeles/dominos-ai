@@ -3,6 +3,7 @@ import { SignedIn } from "@clerk/nextjs";
 import gsap from "gsap";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
+import { ModeToggle } from "./mode-toggle";
 
 export default function Navbar() {
 
@@ -39,20 +40,18 @@ export default function Navbar() {
 
 
   return (
-    <div className='flex fixed top-0 justify-between items-center w-full px-4 py-3 border-b bg-white z-[99]'>
+    <div className='flex fixed top-0 justify-between items-center w-full dark:bg-[#0a0a0b] px-4 py-3 z-[50] border-b border-b-zinc-900'>
       <Link href="/" className="flex items-center gap-2">
         <span>🍕 </span>
         <h1 className='font-semibold text-lg' ref={textRef}>AI Pizza Agent</h1>
       </Link>
-      <div className="flex justify-end items-center gap-6">
+      <div className="flex justify-end items-center gap-4">
         <SignedIn>
           <Link href="/profile">
-            <h1 className="font-medium text-sm text-gray-700 hover:text-black">Profile</h1>
+            <h1 className="font-medium text-sm text-zinc-600 hover:text-zinc-900 dark:text-zinc-200 hover:dark:text-zinc-400">Profile</h1>
           </Link>
-          {/* <Link href="/orders">
-            <h1 className="font-medium text-sm text-gray-700 hover:text-black">Orders</h1>
-          </Link> */}
         </SignedIn>
+        <ModeToggle />
       </div>
     </div>
 
