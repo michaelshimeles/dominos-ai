@@ -47,13 +47,13 @@ export default function Chat({ userInfo, chatMessages }: {
 
   return (
     <>
-      <div className="flex flex-col w-full max-w-screen-md h-[calc(100vh)] px-4 mt-[5rem] pb-[5rem] overflow-y-auto scrollbar-hide">
+      <div className="flex flex-col w-full max-w-screen-md px-4 mt-[5rem] pb-[5rem] overflow-y-auto scrollbar-hide">
         {messages.map((message, index) => (
           <main key={index}>
             <ChatMessage message={message} isLoading={isLoading} userInfo={userInfo} />
           </main>
         ))}
-        <div ref={messagesEndRef} />
+        {/* <div ref={messagesEndRef} /> */}
       </div>
       <div className="p-2 w-full dark:bg-[#0a0a0b] bg-white z-[99] fixed bottom-0 border-t  dark:border-t-zinc-900" >
         <div className="flex justify-center items-end gap-4 w-full ">
@@ -77,7 +77,7 @@ export default function Chat({ userInfo, chatMessages }: {
                   />
                 </div>
               </DropdownMenuTrigger>
-              <DropdownMenuContent>
+              <DropdownMenuContent className='mb-[1rem]'>
                 <Link href="/profile">
                   <DropdownMenuItem>Profile</DropdownMenuItem>
                 </Link>

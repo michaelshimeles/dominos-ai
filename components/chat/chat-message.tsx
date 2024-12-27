@@ -46,12 +46,14 @@ export default memo(function ChatMessage({
         {message.toolInvocations?.map((toolInvocation: any, toolIndex: number) => {
           const toolName = toolInvocation?.toolName;
 
+          console.log('toolInvocation?.result?.orderItems', toolInvocation?.result?.orderItems)
+
           switch (toolName) {
             case 'displayFood':
               return (
-                <div key={`tool-${toolIndex}`} className='flex flex-wrap justify-start items-center w-full gap-2 rounded-2xl'>
+                <div key={`tool-${toolIndex}`} className='grid grid-cols-1 lg:grid-cols-2 w-full gap-2 rounded-2xl'>
                   {toolInvocation?.result?.orderItems?.map((order: any, orderIndex: number) => (
-                    <div key={`order-${toolIndex}-${orderIndex}`} className='max-w-[300px] mt-2 w-fit'>
+                    <div key={`order-${toolIndex}-${orderIndex}`} className='mt-2 w-fit'>
                       <PizzaCard
                         title={order?.name}
                         description={order?.description}

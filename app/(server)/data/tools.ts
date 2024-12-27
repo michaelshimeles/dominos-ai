@@ -18,7 +18,7 @@ interface OrderState {
 let orderState: OrderState = {};
 
 const displayFood = createTool({
-  description: "Share what available pizza's exist using PizzaCard, please do not render the pizza images",
+  description: "Share what available pizza's exist using PizzaCard, please do not render the images of pizza in the chat messages",
   parameters: z.object({
     items: z.array(
       z.object({
@@ -81,9 +81,9 @@ const getOrderDetails = createTool({
   description: "Get the order details like amount due and share with user",
   parameters: z.object({}),
   execute: async () => {
-    console.log('orderState.customerInfo', orderState.customerInfo)
-    console.log('orderState.selectedFood', orderState.selectedFood)
-    console.log('orderState.address', orderState.address)
+    // console.log('orderState.customerInfo', orderState.customerInfo)
+    // console.log('orderState.selectedFood', orderState.selectedFood)
+    // console.log('orderState.address', orderState.address)
     if (
       !orderState.customerInfo ||
       !orderState.selectedFood ||
