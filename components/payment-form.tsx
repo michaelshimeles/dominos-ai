@@ -76,11 +76,10 @@ export function PaymentFormCard({ amount }: { amount: number }) {
       // Send message to AI to process payment
       await append({
         role: 'user',
-        content: 'Process this payment',
-        toolName: "processCardPayments",
-        toolArgs: {
+        content: JSON.stringify({
+          action: 'processCardPayments',
           cardInfo: sanitizedCardInfo
-        }
+        })
       })
 
       // Clear sensitive data immediately
