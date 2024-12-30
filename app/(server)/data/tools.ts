@@ -4,7 +4,7 @@ import { z } from "zod";
 import { orderDetails } from "./pizza/order-details";
 import selectLocation from "./pizza/select-location";
 import { selectPizza } from "./pizza/select-pizza";
-import { processPayment } from "./pizza/process-payment";
+import TrackOrder from "./pizza/track-order";
 
 // State interface
 interface OrderState {
@@ -19,7 +19,7 @@ let orderState: OrderState = {};
 
 const displayFood = createTool({
   description:
-    "Share what available pizza's exist using PizzaCard, please do not render the images of pizza in the chat messages",
+    "Share what available pizza's exist using PizzaCard, please do not render the images of pizza in the chat messages, make sure you get what pizza and how many the user wants",
   parameters: z.object({
     items: z.array(
       z.object({
@@ -78,8 +78,8 @@ const selectNearbyStore = createTool({
   },
 });
 
-const getOrderDetails = createTool({
-  description: "Get the order details like amount due and share with user",
+const renderOrderDetailsAndPaymentCard = createTool({
+  description: "Share the order details and the payment card component",
   parameters: z.object({}),
   execute: async () => {
     console.log("orderState.customerInfo", orderState.customerInfo);
@@ -110,46 +110,35 @@ const getOrderDetails = createTool({
   },
 });
 
-const processCardPayments = createTool({
-  description: "Process customers payment",
-  parameters: z.object({
-    cardInfo: z.object({
-      amount: z.any(),
-      number: z.string(),
-      expiration: z.string(),
-      securityCode: z.string(),
-      postalCode: z.string(),
-      tipAmount: z.number(),
-    }),
-  }),
-  execute: async ({ cardInfo }) => {
-    const result = await processPayment(orderState.orderObject, cardInfo);
-
-    return result;
-  },
-});
-
 const trackOrder = createTool({
-  description: "Track the status of an order",
+  description: "Track the status of the users order",
   parameters: z.object({
-    orderId: z.string().describe("The unique identifier for the order"),
+    phoneNumber: z.string(),
   }),
-  execute: async ({ orderId }) => {
-    // Mock logic to fetch order status
-    const statuses = ["Preparing", "Out for delivery", "Delivered"];
-    const randomStatus = statuses[Math.floor(Math.random() * statuses.length)];
-    return {
-      success: true,
-      orderId,
-      status: randomStatus,
-      estimatedDeliveryTime: new Date(Date.now() + 30 * 60000).toISOString(), // 30 minutes from now
-    };
+  execute: async ({ phoneNumber }) => {
+    console.log('phoneNumber', phoneNumber)
+    try {
+
+      const response = await TrackOrder(phoneNumber!);
+
+      console.log("response", response);
+      return {
+        response,
+        success: true,
+      };
+    } catch (error) {
+      return {
+        error,
+        success: false,
+      };
+
+    }
   },
 });
 
 export const tools = {
   displayFood,
   selectNearbyStore,
-  getOrderDetails,
-  processCardPayments,
+  renderOrderDetailsAndPaymentCard,
+  trackOrder,
 };

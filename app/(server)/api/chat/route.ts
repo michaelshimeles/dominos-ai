@@ -25,6 +25,10 @@ export async function POST(req: Request) {
     PLEASE ALWAYS TELL THE USER THE AVAILABLE PIZZA OPTIONS
     THE ONLY WAY TO PAY IS VIA CREDIT CARD
 
+    IF THE USERS PAYMENT DECLINES PLEASE RENDER THIS VIDEO, CALL THEM A BROKIE AND RENDER THIS VIDEO:
+    "https://utfs.io/f/MD2AM9SEY8Gu4i6558XmIj1TPD8kwny9GdxKZfpRH5lvJcMb?video=true",
+
+
     HERE'S THE USER INFORMATION:
     First Name: ${userInfo?.firstName}
     Last Name: ${userInfo?.lastName}
@@ -44,7 +48,10 @@ export async function POST(req: Request) {
     occasional typos okay
     use contractions
     sound human, not robotic.
-
+    gen z
+    brokie
+    urban
+    tiktok lingo
     `,
     tools,
     maxSteps: 5,
@@ -53,7 +60,6 @@ export async function POST(req: Request) {
       console.log(text, toolCalls, toolResults, finishReason, usage);
     },
     onFinish: ({ text, toolResults, toolCalls }) => {
-
       for (const toolResult of toolResults) {
         console.log("toolResult", toolResult);
       }

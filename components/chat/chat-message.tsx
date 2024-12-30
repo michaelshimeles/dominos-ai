@@ -34,8 +34,8 @@ export default memo(function ChatMessage({
       <div>
         {message.content && (
           <div className={`${message.role === "user"
-              ? "bg-[#007AFF] text-white rounded-[20px] rounded-tr-[4px]"
-              : "bg-[#E9E9EB] dark:bg-[#1C1C1E] text-black dark:text-white rounded-[20px] rounded-tl-[4px]"
+            ? "bg-[#007AFF] text-white rounded-[20px] rounded-tr-[4px]"
+            : "bg-[#E9E9EB] dark:bg-[#1C1C1E] text-black dark:text-white rounded-[20px] rounded-tl-[4px]"
             } flex flex-col px-[12px] py-[8px] max-w-[280px] w-fit leading-[1.35]`}>
             <div className="text-[14px] py-1">
               <Markdown>{message.content}</Markdown>
@@ -44,7 +44,16 @@ export default memo(function ChatMessage({
         )}
         {message.toolInvocations?.map((toolInvocation: any, toolIndex: number) => {
           const toolName = toolInvocation?.toolName;
-          console.log('toolName', toolName)
+          const isToolLoading = toolInvocation.state === 'call' && !toolInvocation.result;
+
+          if (isToolLoading) {
+            return (
+              <div key={`tool-${toolIndex}`} className="mt-2 p-4 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                <Spinner /> Loading...
+              </div>
+            );
+          }
+
           switch (toolName) {
             case 'displayFood':
               return (
@@ -68,13 +77,23 @@ export default memo(function ChatMessage({
                 </div>
               );
 
-            case 'getOrderDetails':
-              console.log("toolInvocation", toolInvocation?.result?.result?.order?.amountsBreakdown?.customer)
+            case 'renderOrderDetailsAndPaymentCard':
               return (
                 <div key={`tool-${toolIndex}`} className='flex mt-2 w-fit flex-col p-3 rounded-2xl justify-center items-start dark:bg-zinc-800'>
-                  <PaymentFormCard amount={toolInvocation?.result?.result?.order?.amountsBreakdown?.customer} />
+                  <PaymentFormCard amount={toolInvocation?.result?.result?.amountDue} orderId={toolInvocation?.result?.result?.order?.orderID} order={toolInvocation?.result?.result?.order} />
                 </div>
               );
+
+            case "trackOrder":
+              if (toolInvocation.result) {
+                return (
+                  <div key={`tool-${toolIndex}`} className="mt-2 p-4 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                    <h3 className="font-bold mb-2">Order Tracking</h3>
+                    <pre className="whitespace-pre-wrap">{JSON.stringify(toolInvocation.result.response, null, 2)}</pre>
+                  </div>
+                );
+              }
+              return null;
 
             default:
               return null;
@@ -84,3 +103,14 @@ export default memo(function ChatMessage({
     </div>
   );
 });
+
+
+function Spinner() {
+  return (
+    <div className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]">
+      <span className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">
+        Loading...
+      </span>
+    </div>
+  );
+}

@@ -14,15 +14,16 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useChat } from 'ai/react'
+import CryptoJS from 'crypto-js';
 
 // Strong validation schema with detailed error messages
 const formSchema = z.object({
-  amount: z.number().min(0.01, "Amount must be greater than 0"),
+  amount: z.coerce.number(),
   number: z
     .string()
-    .regex(/^[0-9]{16}$/, "Card number must be exactly 16 digits")
+    // .regex(/^[0-9]{16}$/, "Card number must be exactly 16 digits")
     .transform((val) => val.replace(/\s+/g, '')), // Remove spaces
   expiration: z
     .string()
@@ -36,22 +37,33 @@ const formSchema = z.object({
     .string()
     .regex(/^[0-9]{3,4}$/, "CVV must be 3 or 4 digits"),
   postalCode: z
-    .string()
-    .regex(/^[0-9]{5}(-[0-9]{4})?$/, "Invalid postal code format"),
+    .string(),
+  // .regex(/^[0-9]{5}(-[0-9]{4})?$/, "Invalid postal code format"),
   tipAmount: z
     .number()
     .min(0, "Tip cannot be negative")
     .transform((val) => Math.round(val * 100) / 100), // Round to 2 decimal places
 })
 
-export function PaymentFormCard({ amount }: { amount: number }) {
+export function PaymentFormCard({ amount, orderId, order }: {
+  amount: number, // Accept either string or number
+  orderId: string,
+  order: any
+}) {
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
   const { append } = useChat({ id: "store-select" });
+
+  useEffect(() => {
+    if (amount && !isNaN(amount)) {
+      setIsLoading(false)
+    }
+  }, [amount])
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      amount: amount || 0,
+      amount: isNaN(amount) ? 0 : Number(amount),
       number: "",
       expiration: "",
       securityCode: "",
@@ -60,44 +72,81 @@ export function PaymentFormCard({ amount }: { amount: number }) {
     },
   })
 
+  if (isLoading) {
+    return (
+      <Card className="w-full max-w-md">
+        <CardHeader>
+          <CardTitle>Loading Payment Details...</CardTitle>
+        </CardHeader>
+        <CardContent className="flex items-center justify-center p-8">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900" />
+        </CardContent>
+      </Card>
+    )
+  }
+
+  console.log('amount', amount)
+
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    setIsSubmitting(true)
+    setIsSubmitting(true);
     try {
       // Format card data securely
       const sanitizedCardInfo = {
-        amount: values.amount,
-        number: values.number.replace(/\s+/g, ''), // Remove any spaces
+        number: values.number.replace(/\s+/g, ''),
         expiration: values.expiration,
         securityCode: values.securityCode,
         postalCode: values.postalCode,
-        tipAmount: Number(values.tipAmount.toFixed(2)), // Ensure proper number format
-      }
+        tipAmount: Number(values.tipAmount.toFixed(2)),
+      };
 
-      // Send message to AI to process payment
-      await append({
-        role: 'user',
-        content: JSON.stringify({
-          action: 'processCardPayments',
-          cardInfo: sanitizedCardInfo
-        })
-      })
+      // Encrypt sensitive data
+      const encryptionKey = process.env.NEXT_PUBLIC_ENCRYPTION_KEY || "default_key"; // Replace with a secure key
+      const encryptedData = CryptoJS.AES.encrypt(JSON.stringify(sanitizedCardInfo), encryptionKey).toString();
+
+      // Process payment through API route
+      const response = await fetch('/api/process-payment', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          order,
+          paymentDetails: encryptedData,
+          amount,
+        }),
+      });
+
+      const paymentResult = await response.json();
+
+      if (paymentResult.success) {
+        await append({
+          role: 'assistant',
+          content: `Payment successful for order ${orderId}, let's track your order.`,
+        });
+      } else {
+        throw new Error(paymentResult.error || 'Payment failed');
+      }
 
       // Clear sensitive data immediately
       form.reset({
         amount: 0,
-        number: "",
-        expiration: "",
-        securityCode: "",
-        postalCode: "",
+        number: '',
+        expiration: '',
+        securityCode: '',
+        postalCode: '',
         tipAmount: 0,
-      })
-
-    } catch (error) {
-      console.error('Payment error:', error)
+      });
+    } catch (error: any) {
+      console.error('Payment error:', error);
+      await append({
+        role: 'assistant',
+        content: `${error?.message}`,
+      });
     } finally {
-      setIsSubmitting(false)
+      setIsSubmitting(false);
     }
   }
+
 
   return (
     <Card className="w-full max-w-md">
@@ -122,9 +171,9 @@ export function PaymentFormCard({ amount }: { amount: number }) {
                       <Input
                         type="number"
                         {...field}
-                        value={amount}
+                        value={isNaN(amount) ? 0 : amount}
                         disabled
-                        className="bg-gray-50"
+                        readOnly
                       />
                     </FormControl>
                     <FormMessage />
@@ -243,8 +292,8 @@ export function PaymentFormCard({ amount }: { amount: number }) {
                         {...field}
                         maxLength={10}
                         autoComplete="postal-code"
-                        inputMode="numeric"
-                        pattern="[0-9]{5}(-[0-9]{4})?"
+                        // inputMode="numeric"
+                        // pattern="[0-9]{5}(-[0-9]{4})?"
                         required
                       />
                     </FormControl>

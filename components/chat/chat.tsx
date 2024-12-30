@@ -53,7 +53,7 @@ export default function Chat({ userInfo, chatMessages }: {
             <ChatMessage message={message} isLoading={isLoading} userInfo={userInfo} />
           </main>
         ))}
-        {/* <div ref={messagesEndRef} /> */}
+        <div ref={messagesEndRef} />
       </div>
       <div className="p-2 w-full dark:bg-[#0a0a0b] bg-white z-[99] fixed bottom-0 border-t  dark:border-t-zinc-900" >
         <div className="flex justify-center items-end gap-4 w-full ">
