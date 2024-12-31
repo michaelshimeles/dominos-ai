@@ -1,12 +1,3 @@
-const {
-  Customer,
-  NearbyStores,
-  Order,
-  Item,
-  Payment,
-  Tracking,
-} = require("dominos");
-
 interface PizzaOptions {
   code: string;
   options?: {

@@ -21,7 +21,7 @@ const ListStores = memo(function ListStores({ stores }: any) {
               disabled={clicked}
               onClick={async () => {
                 setClicked(true);
-                append({ role: "user", content: "The selected address to order from is " + address?.AddressDescription });
+                append({ role: "user", content: "I want to order from this address: " + address?.AddressDescription });
               }}
               variant={clicked ? "default" : "outline"}>{clicked ? "Selected" : "Select"}
             </Button>

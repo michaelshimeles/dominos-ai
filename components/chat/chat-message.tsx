@@ -73,14 +73,14 @@ export default memo(function ChatMessage({
 
             case 'selectNearbyStore':
               return (
-                <div key={`tool-${toolIndex}`} className='flex mt-2 w-fit flex-col p-3 rounded-2xl justify-center items-start dark:bg-zinc-800'>
+                <div key={`tool-${toolIndex}`} className='flex mt-2 w-fit flex-col p-3 rounded-2xl justify-center items-start bg-[#E9E9EB] dark:bg-zinc-800'>
                   <ListStores stores={toolInvocation?.result?.result?.storeInfo} />
                 </div>
               );
 
             case 'renderOrderDetailsAndPaymentCard':
               return (
-                <div key={`tool-${toolIndex}`} className='flex mt-2 w-fit flex-col p-3 rounded-2xl justify-center items-start dark:bg-zinc-800'>
+                <div key={`tool-${toolIndex}`} className='flex mt-2 w-fit flex-col p-3 rounded-2xl justify-center items-start bg-[#E9E9EB] dark:bg-zinc-800'>
                   <PaymentFormCard amount={toolInvocation?.result?.result?.amountDue} orderId={toolInvocation?.result?.result?.order?.orderID} order={toolInvocation?.result?.result?.order} />
                 </div>
               );
@@ -88,7 +88,7 @@ export default memo(function ChatMessage({
             case "trackOrder":
               if (toolInvocation.result) {
                 return (
-                  <div key={`tool-${toolIndex}`} className="mt-2 p-4 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                  <div key={`tool-${toolIndex}`} className="mt-2 p-4 bg-[#E9E9EB] dark:bg-gray-800 rounded-lg">
                     <h3 className="font-bold mb-2">Order Tracking</h3>
                     <pre className="whitespace-pre-wrap">{JSON.stringify(toolInvocation.result.response, null, 2)}</pre>
                   </div>

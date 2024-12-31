@@ -38,7 +38,7 @@ export default function ProjectCard({ title, description, image }: {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       whileHover={{ scale: 1.03 }} // Slightly increase size on hover
-      className="relative w-full rounded-2xl border max-w-[400px] bg-black border-zinc-900 hover:cursor-pointer overflow-hidden"
+      className="relative w-full rounded-2xl border max-w-[400px] bg-[#E9E9EB] dark:bg-[#1C1C1E] dark:border-zinc-900 hover:cursor-pointer overflow-hidden"
     >
       {/* Radial gradient overlay that follows the mouse */}
       <div
@@ -57,13 +57,13 @@ export default function ProjectCard({ title, description, image }: {
             src={image}
             alt="Blog thumbnail"
             fill
-            className="object-cover object-center"
+            className="object-cover object-center border rounded"
           />
         </div>
         {/* Text content */}
         <div className="flex flex-col gap-1 mt-2">
-          <p className="text-sm text-gray-300">{title}</p>
-          <p className="text-xs text-gray-400">{description}</p>
+          <p className="text-sm dark:text-gray-300">{title}</p>
+          <p className="text-xs dark:text-gray-400">{description}</p>
         </div>
       </div>
     </motion.div>
