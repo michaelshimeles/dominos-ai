@@ -1,9 +1,10 @@
 import {
+  jsonb,
   pgTable,
   serial,
   text,
   timestamp,
-  varchar
+  varchar,
 } from "drizzle-orm/pg-core";
 
 export const users = pgTable("users", {
@@ -18,13 +19,14 @@ export const users = pgTable("users", {
   unitType: text("unit_type"),
   createdAt: timestamp("created_at").defaultNow(),
   profile_image_url: text("profile_image_url"),
-  country: text("country")
+  country: text("country"),
 });
 
 export const messages = pgTable("messages", {
   id: serial("id").primaryKey(),
   user_id: text("user_id"),
   role: text({ enum: ["user", "assistant"] }).notNull(),
-  content: text("content").notNull(),
+  content: text("content"),
+  toolInvocations: jsonb("tool_invocations"),
   createdAt: timestamp("created_at").defaultNow(),
 });

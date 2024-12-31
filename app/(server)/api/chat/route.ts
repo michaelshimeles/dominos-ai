@@ -1,7 +1,7 @@
 import { openai } from "@ai-sdk/openai";
 import { auth } from "@clerk/nextjs/server";
 import { streamText } from "ai";
-import { insertMessage } from "../../data/messages";
+import { insertMessage, saveToolResult } from "../../data/messages";
 import { tools } from "../../data/tools";
 
 // Allow streaming responses up to 30 seconds
@@ -13,7 +13,13 @@ export async function POST(req: Request) {
 
   const role =
     messages?.[messages?.length - 1].role === "user" ? "user" : "assistant";
-  await insertMessage(userId!, role, messages?.[messages?.length - 1].content);
+  const id = await insertMessage(
+    userId!,
+    role,
+    messages?.[messages?.length - 1].content
+  );
+
+  console.log("messages", messages);
 
   const result = streamText({
     model: openai("gpt-4o"),
@@ -55,15 +61,29 @@ export async function POST(req: Request) {
     `,
     tools,
     maxSteps: 5,
-    onStepFinish({ text, toolCalls, toolResults, finishReason, usage }) {
+    onStepFinish({
+      text,
+      toolCalls,
+      toolResults,
+      finishReason,
+      usage,
+      stepType,
+    }) {
       // your own logic, e.g. for saving the chat history or recording usage
-      console.log(text, toolCalls, toolResults, finishReason, usage);
-    },
-    onFinish: ({ text, toolResults, toolCalls }) => {
-      for (const toolResult of toolResults) {
-        console.log("toolResult", toolResult);
-      }
+      // console.log("stepType", stepType);
+      // console.log("text", text);
+      // console.log("finishReason", finishReason);
+      // console.log("usage", usage);
 
+      if (finishReason === "tool-calls") {
+        console.log("toolCalls", toolCalls);
+        console.log("toolResults", toolResults?.[0]);
+
+        const toolInvocations = toolResults?.[0];
+        saveToolResult(userId!, toolInvocations);
+      }
+    },
+    onFinish: ({ text, toolResults, toolCalls, finishReason }) => {
       insertMessage(userId!, "assistant", text);
     },
   });

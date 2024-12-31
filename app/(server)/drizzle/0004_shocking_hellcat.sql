@@ -1,1 +1,0 @@
-ALTER TABLE "character" DROP CONSTRAINT "character_user_id_unique";

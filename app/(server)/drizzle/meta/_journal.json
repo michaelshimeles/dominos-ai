@@ -5,148 +5,15 @@
     {
       "idx": 0,
       "version": "7",
-      "when": 1734287392806,
-      "tag": "0000_bored_the_watchers",
+      "when": 1735630290106,
+      "tag": "0000_volatile_sunspot",
       "breakpoints": true
     },
     {
       "idx": 1,
       "version": "7",
-      "when": 1734316491221,
-      "tag": "0001_lush_taskmaster",
-      "breakpoints": true
-    },
-    {
-      "idx": 2,
-      "version": "7",
-      "when": 1734316573282,
-      "tag": "0002_omniscient_praxagora",
-      "breakpoints": true
-    },
-    {
-      "idx": 3,
-      "version": "7",
-      "when": 1734320055844,
-      "tag": "0003_dry_shiva",
-      "breakpoints": true
-    },
-    {
-      "idx": 4,
-      "version": "7",
-      "when": 1734320728028,
-      "tag": "0004_shocking_hellcat",
-      "breakpoints": true
-    },
-    {
-      "idx": 5,
-      "version": "7",
-      "when": 1734363802393,
-      "tag": "0005_strong_gargoyle",
-      "breakpoints": true
-    },
-    {
-      "idx": 6,
-      "version": "7",
-      "when": 1734366011364,
-      "tag": "0006_spotty_harrier",
-      "breakpoints": true
-    },
-    {
-      "idx": 7,
-      "version": "7",
-      "when": 1734366033881,
-      "tag": "0007_orange_snowbird",
-      "breakpoints": true
-    },
-    {
-      "idx": 8,
-      "version": "7",
-      "when": 1734366102837,
-      "tag": "0008_same_spot",
-      "breakpoints": true
-    },
-    {
-      "idx": 9,
-      "version": "7",
-      "when": 1734366528986,
-      "tag": "0009_purple_tusk",
-      "breakpoints": true
-    },
-    {
-      "idx": 10,
-      "version": "7",
-      "when": 1734366557197,
-      "tag": "0010_romantic_killmonger",
-      "breakpoints": true
-    },
-    {
-      "idx": 11,
-      "version": "7",
-      "when": 1734366969108,
-      "tag": "0011_brainy_mad_thinker",
-      "breakpoints": true
-    },
-    {
-      "idx": 12,
-      "version": "7",
-      "when": 1734374263953,
-      "tag": "0012_spooky_calypso",
-      "breakpoints": true
-    },
-    {
-      "idx": 13,
-      "version": "7",
-      "when": 1734378176106,
-      "tag": "0013_steep_longshot",
-      "breakpoints": true
-    },
-    {
-      "idx": 14,
-      "version": "7",
-      "when": 1734378209755,
-      "tag": "0014_demonic_quasimodo",
-      "breakpoints": true
-    },
-    {
-      "idx": 15,
-      "version": "7",
-      "when": 1734378237229,
-      "tag": "0015_remarkable_earthquake",
-      "breakpoints": true
-    },
-    {
-      "idx": 16,
-      "version": "7",
-      "when": 1734378558270,
-      "tag": "0016_abnormal_vulture",
-      "breakpoints": true
-    },
-    {
-      "idx": 17,
-      "version": "7",
-      "when": 1734383455506,
-      "tag": "0017_loving_monster_badoon",
-      "breakpoints": true
-    },
-    {
-      "idx": 18,
-      "version": "7",
-      "when": 1734390132336,
-      "tag": "0018_useful_shen",
-      "breakpoints": true
-    },
-    {
-      "idx": 19,
-      "version": "7",
-      "when": 1734401535029,
-      "tag": "0019_late_morbius",
-      "breakpoints": true
-    },
-    {
-      "idx": 20,
-      "version": "7",
-      "when": 1735002918423,
-      "tag": "0020_rare_cardiac",
+      "when": 1735630553053,
+      "tag": "0001_great_joseph",
       "breakpoints": true
     }
   ]

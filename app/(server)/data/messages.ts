@@ -8,12 +8,25 @@ export const insertMessage = async (
   role: "user" | "assistant",
   content: string
 ) => {
+  const [{ id }] = await db
+    .insert(messages)
+    .values({
+      user_id: userId,
+      role,
+      content,
+    })
+    .returning();
+
+  return id;
+};
+
+export async function saveToolResult(userId: string, toolResult: any) {
   await db.insert(messages).values({
     user_id: userId,
-    role,
-    content,
+    role: "assistant",
+    toolInvocations: [toolResult],
   });
-};
+}
 
 // Fetch chat messages
 export const getChatMessages = async (user_id: string) => {

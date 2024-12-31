@@ -43,6 +43,7 @@ export default memo(function ChatMessage({
           </div>
         )}
         {message.toolInvocations?.map((toolInvocation: any, toolIndex: number) => {
+          console.log('toolInvocation', toolInvocation)
           const toolName = toolInvocation?.toolName;
           const isToolLoading = toolInvocation.state === 'call' && !toolInvocation.result;
 
