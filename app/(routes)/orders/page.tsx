@@ -1,9 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion';
-import { PizzaOrderCard } from '../../components/pizza-order-card';
-import { CurrentOrderTracker } from '../../components/current-order-tracker';
 import { CurrentOrder, PizzaOrder } from '@/lib/types';
+import { CurrentOrderTracker } from './_components/current-order-tracker';
+import { PizzaOrderCard } from './_components/pizza-order-card';
 
 const currentOrder: CurrentOrder = {
   id: 'current',

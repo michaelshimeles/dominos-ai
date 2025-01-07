@@ -1,5 +1,5 @@
 import CryptoJS from 'crypto-js';
-import { processPayment } from '../../data/pizza/process-payment';
+import { processPayment } from '../../services/pizza/process-payment';
 import { NextResponse } from 'next/server';
 
 export async function POST(req: Request) {
