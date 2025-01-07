@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { memo } from 'react';
 import ReactMarkdown, { type Components } from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -36,14 +35,14 @@ const components: Partial<Components> = {
   },
   a: ({ node, children, ...props }) => {
     return (
-      <Link
+      <a
         className="text-blue-500 hover:underline"
         target="_blank"
         rel="noreferrer"
         {...props}
       >
         {children}
-      </Link>
+      </a>
     );
   },
   h1: ({ node, children, ...props }) => {
