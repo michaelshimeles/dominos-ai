@@ -7,13 +7,11 @@ import "./globals.css";
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { ThemeProvider } from "@/components/theme-provider";
 
-
-
 export const metadata: Metadata = {
-  title: "AI Dominos Agent",
+  title: "AI Pizza Agent",
   description: "Order fresh pizza from Dominos",
   openGraph: {
-    images: ["https://utfs.io/f/MD2AM9SEY8GucPis22p5qyE7FjNDKYduLOG2QHWh3f5RgSi0"]
+    images: ["https://utfs.io/f/MD2AM9SEY8Gu0MHVEZzxuSJ9ba17ZAls2qn06UEWkzfxOYjD"]
   }
 };
 

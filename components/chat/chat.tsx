@@ -39,8 +39,6 @@ export default function Chat({ userInfo, chatMessages }: {
     id: "store-select",
   });
 
-  console.log('messages', messages)
-  // console.log('chatMessages', chatMessages)
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {

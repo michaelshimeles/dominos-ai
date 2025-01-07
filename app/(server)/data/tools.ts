@@ -28,6 +28,7 @@ const displayFood = createTool({
           "pepperoniExtraCheese",
           "hawaiian",
           "supreme",
+          "mikeSpecial",
         ]),
         size: z.enum(["10SCREEN", "12SCREEN", "14SCREEN", "16SCREEN"]),
         quantity: z.number().int().positive(),
@@ -116,9 +117,8 @@ const trackOrder = createTool({
     phoneNumber: z.string(),
   }),
   execute: async ({ phoneNumber }) => {
-    console.log('phoneNumber', phoneNumber)
+    console.log("phoneNumber", phoneNumber);
     try {
-
       const response = await TrackOrder(phoneNumber!);
 
       console.log("response", response);
@@ -131,7 +131,6 @@ const trackOrder = createTool({
         error,
         success: false,
       };
-
     }
   },
 });

@@ -51,19 +51,20 @@ export async function selectPizza(items: any) {
       "If you're into the sweet and savory combo, this one's for you. It's got ham and pineapple on it.",
   };
 
-  // const mikeSpecial: PizzaOptions = {
-  //   code: "14SCREEN", // Adjust code if needed for different sizes
-  //   options: {
-  //     X: { "1/1": "2" }, // Extra sauce (change to "1" for normal)
-  //     C: { "1/1": "1.5" }, // Extra cheese (change to "1" for normal)
-  //     P: { "1/1": "1" }, // Pepperoni
-  //     CH: { "1/1": "1" }, // Chicken
-  //     J: { "1/1": "1" }, // Jalapenos
-  //   },
-  //   imageUrl: "https://utfs.io/f/MD2AM9SEY8Gu...", // (Optional) Add image URL if available
-  //   description:
-  //     "A custom pizza built by you - extra cheese, extra tomato sauce, pepperoni, chicken, and jalapenos. It's the Mike Special!",
-  // };
+  const mikeSpecial: PizzaOptions = {
+    code: "14SCREEN", // Adjust code if needed for different sizes
+    options: {
+      X: { "1/1": "2" }, // Extra sauce (change to "1" for normal)
+      C: { "1/1": "1.5" }, // Extra cheese (change to "1" for normal)
+      P: { "1/1": "1" }, // Pepperoni
+      CH: { "1/1": "1" }, // Chicken
+      J: { "1/1": "1" }, // Jalapenos
+    },
+    imageUrl:
+      "https://utfs.io/f/MD2AM9SEY8GuaTTrF3LrP3abVqUT2FpxJ6YjltvBu7EDAHC0", // (Optional) Add image URL if available
+    description:
+      "A custom pizza built by you - extra cheese, extra tomato sauce, pepperoni, chicken, and jalapenos. It's the Mike Special!",
+  };
 
   // Supreme pizza
   const supreme: PizzaOptions = {
@@ -94,7 +95,9 @@ export async function selectPizza(items: any) {
           ? hawaiian.options
           : item?.name === "basicCheese"
           ? basicCheese.options
-          : pepperoniExtraCheese.options,
+          : item?.name === "pepperoniExtraCheese"
+          ? pepperoniExtraCheese.options
+          : mikeSpecial.options,
       name:
         item?.name === "supreme"
           ? "Supreme"
@@ -102,7 +105,9 @@ export async function selectPizza(items: any) {
           ? "Hawaiian"
           : item?.name === "basicCheese"
           ? "Classic Cheese"
-          : "Pepperoni Extra Cheese",
+          : item?.name === "pepperoniExtraCheese"
+          ? "Pepperoni Extra Cheese"
+          : "Mike's Sepcial",
       imageUrl:
         item?.name === "supreme"
           ? supreme.imageUrl
@@ -110,7 +115,9 @@ export async function selectPizza(items: any) {
           ? hawaiian.imageUrl
           : item?.name === "basicCheese"
           ? basicCheese.imageUrl
-          : pepperoniExtraCheese.imageUrl,
+          : item?.name === "pepperoniExtraCheese"
+          ? pepperoniExtraCheese.imageUrl
+          : mikeSpecial.imageUrl,
       description:
         item?.name === "supreme"
           ? supreme.description
@@ -118,7 +125,9 @@ export async function selectPizza(items: any) {
           ? hawaiian.description
           : item?.name === "basicCheese"
           ? basicCheese.description
-          : pepperoniExtraCheese.description,
+          : item?.name === "pepperoniExtraCheese"
+          ? pepperoniExtraCheese.description
+          : mikeSpecial.description,
     };
   });
 

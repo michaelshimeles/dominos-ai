@@ -2,9 +2,8 @@
 import { auth } from "@clerk/nextjs/server";
 import { eq } from "drizzle-orm";
 import { z } from "zod";
-import { db } from "./db/db";
-import { messages, users } from "./db/schema";
-import { revalidatePath } from "next/cache";
+import { db } from "../db/db";
+import { users } from "../db/schema";
 
 const formSchema = z.object({
   firstName: z.string().min(1, "First name is required"),
@@ -16,7 +15,7 @@ const formSchema = z.object({
   unitType: z.string().optional(),
 });
 
-export async function submitOrder(prevState: any, formData: FormData) {
+export async function updateProfile(prevState: any, formData: FormData) {
   const { userId } = await auth();
   const validatedFields = formSchema.safeParse({
     firstName: formData.get("firstName"),
@@ -54,14 +53,4 @@ export async function submitOrder(prevState: any, formData: FormData) {
   return {
     message: "Order information submitted successfully!",
   };
-}
-
-export async function clearChat(userId: string) {
-  try {
-    await db.delete(messages).where(eq(messages.user_id, userId));
-
-    revalidatePath("/")
-  } catch (error) {
-    return error;
-  }
 }

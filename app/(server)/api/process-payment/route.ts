@@ -6,6 +6,7 @@ export async function POST(req: Request) {
   try {
     const { order, paymentDetails, amount } = await req.json();
 
+    console.log('order', order)
     // Decrypt sensitive data
     const decryptionKey = process.env.ENCRYPTION_KEY!; // Replace with the same key as the client
     const decryptedData = CryptoJS.AES.decrypt(paymentDetails, decryptionKey).toString(CryptoJS.enc.Utf8);

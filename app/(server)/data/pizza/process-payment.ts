@@ -9,8 +9,8 @@ export async function processPayment(order: any, paymentDetails: any) {
     order.payments.push(myCard);
 
     // Attempt to place the order
-    console.log("IT HIT");
-    // await order.place();
+    await order.place();
+    console.log("IT HIT", order);
     console.dir(order, { depth: 5 });
 
     return {

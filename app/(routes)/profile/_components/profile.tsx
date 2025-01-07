@@ -1,15 +1,15 @@
 'use client'
 
+import { updateProfile } from "@/app/(server)/actions/update-profile"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { useActionState } from 'react'
-import { submitOrder } from "../(server)/actions"
 
 export default function Profile({ userInfo }: any) {
-  const [state, formAction, isPending] = useActionState(submitOrder, {
+  const [state, formAction, isPending] = useActionState(updateProfile, {
     errors: {},
     message: ''
   })

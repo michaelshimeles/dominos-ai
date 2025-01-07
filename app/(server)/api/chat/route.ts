@@ -19,8 +19,6 @@ export async function POST(req: Request) {
     messages?.[messages?.length - 1].content
   );
 
-  console.log("messages", messages);
-
   const result = streamText({
     model: openai("gpt-4o"),
     messages,
@@ -76,8 +74,6 @@ export async function POST(req: Request) {
       // console.log("usage", usage);
 
       if (finishReason === "tool-calls") {
-        console.log("toolCalls", toolCalls);
-        console.log("toolResults", toolResults?.[0]);
 
         const toolInvocations = toolResults?.[0];
         saveToolResult(userId!, toolInvocations);
