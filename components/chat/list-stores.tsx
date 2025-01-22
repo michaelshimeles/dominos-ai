@@ -1,5 +1,5 @@
 import Map from '@/components/map/map';
-import { Button } from './ui/button';
+import { Button } from '../ui/button';
 import { useChat } from "ai/react";
 import { useState, memo } from 'react';
 

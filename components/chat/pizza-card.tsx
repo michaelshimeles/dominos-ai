@@ -4,7 +4,7 @@ import Image from "next/image"
 import { useRef, useState } from "react"
 
 // Define the props for the BlogCard component
-export default function ProjectCard({ title, description, image }: {
+export default function PizzaCard({ title, description, image }: {
   title: string,
   description: string,
   image: string

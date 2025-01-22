@@ -2,10 +2,9 @@
 
 import Image from "next/image";
 import { memo } from "react";
-import ListStores from "../list-stores";
-import { Markdown } from "../markdown";
-import { PaymentFormCard } from "../payment-form";
-import PizzaCard from "../pizza-card";
+import ListStores from "./list-stores";
+import { Markdown } from "./markdown";
+import { PaymentFormCard } from "./payment-form";
 
 // Memoized message component
 export default memo(function ChatMessage({
