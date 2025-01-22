@@ -18,7 +18,6 @@ export default memo(function ChatMessage({
   isLoading: any;
 }) {
 
-  console.log('isLoading', isLoading)
   return (
     <div
       className={
@@ -74,29 +73,6 @@ export default memo(function ChatMessage({
             }
 
             switch (toolName) {
-              case "displayFood":
-                return (
-                  <div
-                    key={`tool-${toolIndex}`}
-                    className="grid grid-cols-1 lg:grid-cols-2 w-full gap-2 rounded-2xl"
-                  >
-                    {toolInvocation?.result?.orderItems?.map(
-                      (order: any, orderIndex: number) => (
-                        <div
-                          key={`order-${toolIndex}-${orderIndex}`}
-                          className="mt-2 w-fit"
-                        >
-                          <PizzaCard
-                            title={order?.name}
-                            description={order?.description}
-                            image={order?.imageUrl}
-                          />
-                        </div>
-                      )
-                    )}
-                  </div>
-                );
-
               case "selectNearbyStore":
                 return (
                   <div

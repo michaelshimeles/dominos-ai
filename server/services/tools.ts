@@ -17,7 +17,7 @@ interface OrderState {
 
 let orderState: OrderState = {};
 
-const displayFood = createTool({
+const selectFood = createTool({
   description:
     "Share what available pizza's exist using PizzaCard, please do not render the images of pizza in the chat messages, make sure you get what pizza and how many the user wants",
   parameters: z.object({
@@ -133,7 +133,7 @@ const trackOrder = createTool({
 });
 
 export const tools = {
-  displayFood,
+  selectFood,
   selectNearbyStore,
   renderOrderDetailsAndPaymentCard,
   trackOrder,

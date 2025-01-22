@@ -27,8 +27,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 29,
-        "Max": 39
+        "Min": 33,
+        "Max": 43
       },
       "Carryout": {
         "Min": 9,
@@ -83,8 +83,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 10,
-        "Max": 20
+        "Min": 24,
+        "Max": 34
       },
       "Carryout": {
         "Min": 9,
@@ -195,12 +195,12 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 24,
-        "Max": 34
+        "Min": 20,
+        "Max": 30
       },
       "Carryout": {
-        "Min": 11,
-        "Max": 16
+        "Min": 9,
+        "Max": 14
       }
     },
     "StoreCoordinates": {
@@ -251,8 +251,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 27,
-        "Max": 37
+        "Min": 24,
+        "Max": 34
       },
       "Carryout": {
         "Min": 9,
@@ -307,8 +307,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 20,
-        "Max": 30
+        "Min": 19,
+        "Max": 29
       },
       "Carryout": {
         "Min": 9,
@@ -367,8 +367,8 @@
         "Max": 20
       },
       "Carryout": {
-        "Min": 9,
-        "Max": 14
+        "Min": 12,
+        "Max": 17
       }
     },
     "StoreCoordinates": {
@@ -419,8 +419,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 23,
-        "Max": 33
+        "Min": 20,
+        "Max": 30
       },
       "Carryout": {
         "Min": 9,
@@ -475,8 +475,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 23,
-        "Max": 33
+        "Min": 19,
+        "Max": 29
       },
       "Carryout": {
         "Min": 9,
@@ -531,8 +531,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 10,
-        "Max": 20
+        "Min": 13,
+        "Max": 23
       },
       "Carryout": {
         "Min": 9,
@@ -587,12 +587,12 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 10,
-        "Max": 20
+        "Min": 35,
+        "Max": 45
       },
       "Carryout": {
-        "Min": 9,
-        "Max": 14
+        "Min": 11,
+        "Max": 16
       }
     },
     "StoreCoordinates": {
@@ -643,8 +643,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 23,
-        "Max": 33
+        "Min": 25,
+        "Max": 35
       },
       "Carryout": {
         "Min": 8,
@@ -699,8 +699,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 19,
-        "Max": 29
+        "Min": 15,
+        "Max": 25
       },
       "Carryout": {
         "Min": 10,
@@ -755,8 +755,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 14,
-        "Max": 24
+        "Min": 13,
+        "Max": 23
       },
       "Carryout": {
         "Min": 9,
@@ -867,8 +867,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 18,
-        "Max": 28
+        "Min": 16,
+        "Max": 26
       },
       "Carryout": {
         "Min": 9,
@@ -923,8 +923,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 18,
-        "Max": 28
+        "Min": 17,
+        "Max": 27
       },
       "Carryout": {
         "Min": 9,
@@ -1091,8 +1091,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 21,
-        "Max": 31
+        "Min": 20,
+        "Max": 30
       },
       "Carryout": {
         "Min": 9,
@@ -1151,8 +1151,8 @@
         "Max": 33
       },
       "Carryout": {
-        "Min": 9,
-        "Max": 14
+        "Min": 11,
+        "Max": 16
       }
     },
     "StoreCoordinates": {
@@ -1203,8 +1203,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 15,
-        "Max": 25
+        "Min": 16,
+        "Max": 26
       },
       "Carryout": {
         "Min": 8,
@@ -1315,8 +1315,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 15,
-        "Max": 25
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 10,
@@ -1427,8 +1427,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 17,
-        "Max": 27
+        "Min": 23,
+        "Max": 33
       },
       "Carryout": {
         "Min": 10,
@@ -1483,12 +1483,12 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 19,
-        "Max": 29
+        "Min": 20,
+        "Max": 30
       },
       "Carryout": {
-        "Min": 14,
-        "Max": 19
+        "Min": 10,
+        "Max": 15
       }
     },
     "StoreCoordinates": {
@@ -1595,8 +1595,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 24,
-        "Max": 34
+        "Min": 27,
+        "Max": 37
       },
       "Carryout": {
         "Min": 8,
@@ -1651,8 +1651,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 15,
-        "Max": 30
+        "Min": 17,
+        "Max": 32
       },
       "Carryout": {
         "Min": 10,
@@ -1819,8 +1819,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 20,
-        "Max": 30
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 10,
@@ -1875,8 +1875,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 19,
-        "Max": 29
+        "Min": 21,
+        "Max": 31
       },
       "Carryout": {
         "Min": 9,
@@ -1931,8 +1931,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 27,
-        "Max": 37
+        "Min": 26,
+        "Max": 36
       },
       "Carryout": {
         "Min": 9,
@@ -1987,8 +1987,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 19,
-        "Max": 29
+        "Min": 17,
+        "Max": 27
       },
       "Carryout": {
         "Min": 9,
@@ -2043,8 +2043,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 20,
-        "Max": 30
+        "Min": 22,
+        "Max": 32
       },
       "Carryout": {
         "Min": 9,
@@ -2099,8 +2099,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 22,
-        "Max": 32
+        "Min": 20,
+        "Max": 30
       },
       "Carryout": {
         "Min": 10,
@@ -2155,8 +2155,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 13,
-        "Max": 23
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 10,
@@ -2211,8 +2211,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 15,
-        "Max": 25
+        "Min": 18,
+        "Max": 28
       },
       "Carryout": {
         "Min": 10,
@@ -2323,8 +2323,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 22,
-        "Max": 32
+        "Min": 23,
+        "Max": 33
       },
       "Carryout": {
         "Min": 9,
@@ -2491,8 +2491,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 10,
-        "Max": 20
+        "Min": 13,
+        "Max": 23
       },
       "Carryout": {
         "Min": 9,
@@ -2547,8 +2547,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 10,
-        "Max": 20
+        "Min": 38,
+        "Max": 48
       },
       "Carryout": {
         "Min": 9,
@@ -2603,8 +2603,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 19,
-        "Max": 29
+        "Min": 22,
+        "Max": 32
       },
       "Carryout": {
         "Min": 9,
@@ -2657,8 +2657,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 26,
-        "Max": 36
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 9,
@@ -2713,8 +2713,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 23,
-        "Max": 33
+        "Min": 20,
+        "Max": 30
       },
       "Carryout": {
         "Min": 9,
@@ -2769,8 +2769,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 10,
-        "Max": 20
+        "Min": 16,
+        "Max": 26
       },
       "Carryout": {
         "Min": 9,
@@ -2825,8 +2825,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 23,
-        "Max": 33
+        "Min": 22,
+        "Max": 32
       },
       "Carryout": {
         "Min": 9,
@@ -2881,8 +2881,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 12,
-        "Max": 22
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 9,
@@ -2937,8 +2937,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 24,
-        "Max": 39
+        "Min": 25,
+        "Max": 40
       },
       "Carryout": {
         "Min": 8,
@@ -2993,8 +2993,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 25,
-        "Max": 35
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 9,
@@ -3049,8 +3049,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 10,
-        "Max": 20
+        "Min": 15,
+        "Max": 25
       },
       "Carryout": {
         "Min": 9,
@@ -3105,8 +3105,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 16,
-        "Max": 26
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 9,
@@ -3217,8 +3217,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 26,
-        "Max": 36
+        "Min": 10,
+        "Max": 20
       },
       "Carryout": {
         "Min": 9,
@@ -3273,8 +3273,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 25,
-        "Max": 35
+        "Min": 20,
+        "Max": 30
       },
       "Carryout": {
         "Min": 9,
@@ -3329,8 +3329,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 18,
-        "Max": 28
+        "Min": 17,
+        "Max": 27
       },
       "Carryout": {
         "Min": 9,
@@ -3385,8 +3385,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 15,
-        "Max": 25
+        "Min": 16,
+        "Max": 26
       },
       "Carryout": {
         "Min": 11,
@@ -3441,8 +3441,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 14,
-        "Max": 19
+        "Min": 16,
+        "Max": 21
       },
       "Carryout": {
         "Min": 9,
@@ -3497,8 +3497,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 25,
-        "Max": 35
+        "Min": 20,
+        "Max": 30
       },
       "Carryout": {
         "Min": 9,
@@ -3663,8 +3663,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 24,
-        "Max": 34
+        "Min": 21,
+        "Max": 31
       },
       "Carryout": {
         "Min": 10,
@@ -3719,8 +3719,8 @@
     "AllowDuc": false,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 16,
-        "Max": 21
+        "Min": 10,
+        "Max": 15
       },
       "Carryout": {
         "Min": 9,
@@ -3831,8 +3831,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 35,
-        "Max": 40
+        "Min": 29,
+        "Max": 34
       },
       "Carryout": {
         "Min": 9,
@@ -3887,8 +3887,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 28,
-        "Max": 38
+        "Min": 30,
+        "Max": 40
       },
       "Carryout": {
         "Min": 9,
@@ -3943,8 +3943,8 @@
     "AllowDuc": true,
     "ServiceMethodEstimatedWaitMinutes": {
       "Delivery": {
-        "Min": 20,
-        "Max": 25
+        "Min": 18,
+        "Max": 23
       },
       "Carryout": {
         "Min": 9,
