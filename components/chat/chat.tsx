@@ -14,7 +14,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import { useEffect, useRef } from 'react';
 import ChatMessage from './chat-message';
-import { clearChat } from '@/app/(server)/actions/clear-chat';
+import { clearChat } from '@/server/actions/clear-chat';
 
 
 

@@ -1,8 +1,8 @@
 import Chat from '@/components/chat/chat';
 import { auth } from '@clerk/nextjs/server';
 import { redirect } from 'next/navigation';
-import { getChatMessages } from './(server)/services/messages';
-import { userInfo } from './(server)/services/user/user-info';
+import { getChatMessages } from '../server/services/messages';
+import { userInfo } from '../server/services/user/user-info';
 
 export default async function Home() {
   const { userId } = await auth()

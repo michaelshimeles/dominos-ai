@@ -1,0 +1,3974 @@
+[
+  {
+    "StoreID": "10391",
+    "IsDeliveryStore": true,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-364-3939",
+    "AddressDescription": "51 Niagara St\nToronto, ON M5V1C3\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 29,
+        "Max": 39
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6417",
+      "StoreLongitude": "-79.402"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "51 Niagara St",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M5V1C3"
+    }
+  },
+  {
+    "StoreID": "10497",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-599-2929",
+    "AddressDescription": "344 Front St W Unit 107\nTORONTO, ON M5V3W7\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 10,
+        "Max": 20
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6434",
+      "StoreLongitude": "-79.392"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "344 Front St W Unit 107",
+      "City": "TORONTO",
+      "Region": "ON",
+      "PostalCode": "M5V3W7"
+    }
+  },
+  {
+    "StoreID": "10544",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-504-3030",
+    "AddressDescription": "410 Queen St W\nToronto, ON M5V2A7\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 10,
+        "Max": 20
+      },
+      "Carryout": {
+        "Min": 10,
+        "Max": 15
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6487",
+      "StoreLongitude": "-79.3977"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "410 Queen St W",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M5V2A7"
+    }
+  },
+  {
+    "StoreID": "10478",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-640-7777",
+    "AddressDescription": "404 College St\nToronto, ON M5T1S8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 24,
+        "Max": 34
+      },
+      "Carryout": {
+        "Min": 11,
+        "Max": 16
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.657",
+      "StoreLongitude": "-79.4061"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "404 College St",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M5T1S8"
+    }
+  },
+  {
+    "StoreID": "10518",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-842-2929",
+    "AddressDescription": "67 Richmond St E\nTORONTO, ON M5C1N9\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 27,
+        "Max": 37
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6524",
+      "StoreLongitude": "-79.3749"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "67 Richmond St E",
+      "City": "TORONTO",
+      "Region": "ON",
+      "PostalCode": "M5C1N9"
+    }
+  },
+  {
+    "StoreID": "10526",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-538-2929",
+    "AddressDescription": "1313 King St W\nToronto, ON M6K1G9\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 20,
+        "Max": 30
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6379",
+      "StoreLongitude": "-79.4316"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "1313 King St W",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M6K1G9"
+    }
+  },
+  {
+    "StoreID": "10564",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-972-6464",
+    "AddressDescription": "478 YONGE STREET\nTORONTO, ON M4Y1X5\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 10,
+        "Max": 20
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6624",
+      "StoreLongitude": "-79.3839"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "478 YONGE STREET",
+      "City": "TORONTO",
+      "Region": "ON",
+      "PostalCode": "M4Y1X5"
+    }
+  },
+  {
+    "StoreID": "10460",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-366-3666",
+    "AddressDescription": "312 Queen St E\nToronto, ON M5A1S8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 23,
+        "Max": 33
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6555",
+      "StoreLongitude": "-79.3655"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "312 Queen St E",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M5A1S8"
+    }
+  },
+  {
+    "StoreID": "10479",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-645-2222",
+    "AddressDescription": "1671 Dundas St W\nToronto, ON M6K1V2\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 23,
+        "Max": 33
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6498",
+      "StoreLongitude": "-79.4371"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "1671 Dundas St W",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M6K1V2"
+    }
+  },
+  {
+    "StoreID": "10399",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-533-2929",
+    "AddressDescription": "936 Bathurst St\nToronto, ON M5R3G5\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 10,
+        "Max": 20
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6691",
+      "StoreLongitude": "-79.413"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "936 Bathurst St",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M5R3G5"
+    }
+  },
+  {
+    "StoreID": "10281",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-961-3030",
+    "AddressDescription": "101-159 Wellesley St E\nToronto, ON M4Y0H5\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 10,
+        "Max": 20
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6664",
+      "StoreLongitude": "-79.3746"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "101-159 Wellesley St E",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M4Y0H5"
+    }
+  },
+  {
+    "StoreID": "10487",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-640-2003",
+    "AddressDescription": "1272 Yonge St\nToronto, ON M4T1W5\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 23,
+        "Max": 33
+      },
+      "Carryout": {
+        "Min": 8,
+        "Max": 13
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6836",
+      "StoreLongitude": "-79.3925"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "1272 Yonge St",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M4T1W5"
+    }
+  },
+  {
+    "StoreID": "10513",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-516-4004",
+    "AddressDescription": "1549 Dupont St\nToronto, ON M6P3S5\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 19,
+        "Max": 29
+      },
+      "Carryout": {
+        "Min": 10,
+        "Max": 15
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6652",
+      "StoreLongitude": "-79.4526"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "1549 Dupont St",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M6P3S5"
+    }
+  },
+  {
+    "StoreID": "10563",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-404-8000",
+    "AddressDescription": "1131 Queen St E\nToronto, ON M4M1K9\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 14,
+        "Max": 24
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6621",
+      "StoreLongitude": "-79.3347"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "1131 Queen St E",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M4M1K9"
+    }
+  },
+  {
+    "StoreID": "10410",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-654-3000",
+    "AddressDescription": "354 Oakwood Ave\nYork, ON M6E2W2\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 11:00am-1:00am\nFr-Sa 11:00am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 11:00am-1:00am\nFr-Sa 11:00am-2:00am",
+      "Delivery": "Su-Th 11:00am-1:00am\nFr-Sa 11:00am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 21,
+        "Max": 31
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6868",
+      "StoreLongitude": "-79.4388"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "354 Oakwood Ave",
+      "City": "York",
+      "Region": "ON",
+      "PostalCode": "M6E2W2"
+    }
+  },
+  {
+    "StoreID": "10377",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-604-7255",
+    "AddressDescription": "344 High Park Ave\nToronto, ON M6P2S7\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 18,
+        "Max": 28
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6654",
+      "StoreLongitude": "-79.4706"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "344 High Park Ave",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M6P2S7"
+    }
+  },
+  {
+    "StoreID": "10322",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-778-7800",
+    "AddressDescription": "873 Danforth Ave\nToronto, ON M4J1L8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 18,
+        "Max": 28
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6797",
+      "StoreLongitude": "-79.3395"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "873 Danforth Ave",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M4J1L8"
+    }
+  },
+  {
+    "StoreID": "10280",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-785-5400",
+    "AddressDescription": "377 Marlee Ave\nToronto, ON M6B3H9\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 21,
+        "Max": 31
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.707",
+      "StoreLongitude": "-79.4429"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "377 Marlee Ave",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M6B3H9"
+    }
+  },
+  {
+    "StoreID": "10353",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-429-2929",
+    "AddressDescription": "784 Eglinton Ave E\nToronto, ON M4G2L1\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 34,
+        "Max": 44
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7133",
+      "StoreLongitude": "-79.3671"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "784 Eglinton Ave E",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M4G2L1"
+    }
+  },
+  {
+    "StoreID": "10542",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-485-6666",
+    "AddressDescription": "2685 Yonge St 1\nToronto, ON M4N2H8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 21,
+        "Max": 31
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7169",
+      "StoreLongitude": "-79.4001"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "2685 Yonge St 1",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M4N2H8"
+    }
+  },
+  {
+    "StoreID": "10457",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-649-4445",
+    "AddressDescription": "1200 Weston Rd\nToronto, ON M6M4P4\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 23,
+        "Max": 33
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6876",
+      "StoreLongitude": "-79.4917"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "1200 Weston Rd",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M6M4P4"
+    }
+  },
+  {
+    "StoreID": "10374",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-694-3888",
+    "AddressDescription": "2194 Gerrard St E\nToronto, ON M4E2C7\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 15,
+        "Max": 25
+      },
+      "Carryout": {
+        "Min": 8,
+        "Max": 13
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.684",
+      "StoreLongitude": "-79.3013"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "2194 Gerrard St E",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M4E2C7"
+    }
+  },
+  {
+    "StoreID": "10461",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-251-0999",
+    "AddressDescription": "2811 Lake Shore Blvd W\nEtobicoke, ON M8V1H6\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 16,
+        "Max": 26
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 15
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6015",
+      "StoreLongitude": "-79.5009"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "2811 Lake Shore Blvd W",
+      "City": "Etobicoke",
+      "Region": "ON",
+      "PostalCode": "M8V1H6"
+    }
+  },
+  {
+    "StoreID": "10401",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-237-1290",
+    "AddressDescription": "4204 Dundas St W\nToronto, ON M8X1Y6\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 15,
+        "Max": 25
+      },
+      "Carryout": {
+        "Min": 10,
+        "Max": 15
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6606",
+      "StoreLongitude": "-79.5113"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "4204 Dundas St W",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M8X1Y6"
+    }
+  },
+  {
+    "StoreID": "39053",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-755-7744",
+    "AddressDescription": "869-871 O'Connor Drive\nEast York, ON M4B2S7\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 10,
+        "Max": 20
+      },
+      "Carryout": {
+        "Min": 8,
+        "Max": 13
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.707009",
+      "StoreLongitude": "-79.311369"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "AVAILABLE",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "869-871 O'Connor Drive",
+      "City": "East York",
+      "Region": "ON",
+      "PostalCode": "M4B2S7"
+    }
+  },
+  {
+    "StoreID": "10335",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-233-5861",
+    "AddressDescription": "3828-A Bloor St W\nEtobicoke, ON M9B1K8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 17,
+        "Max": 27
+      },
+      "Carryout": {
+        "Min": 10,
+        "Max": 15
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.641637",
+      "StoreLongitude": "-79.537937"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "3828-A Bloor St W",
+      "City": "Etobicoke",
+      "Region": "ON",
+      "PostalCode": "M9B1K8"
+    }
+  },
+  {
+    "StoreID": "10515",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "647-493-7300",
+    "AddressDescription": "182 Wilson Ave\nNorth York, ON M5M4N7\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 19,
+        "Max": 29
+      },
+      "Carryout": {
+        "Min": 14,
+        "Max": 19
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7396",
+      "StoreLongitude": "-79.4232"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "182 Wilson Ave",
+      "City": "North York",
+      "Region": "ON",
+      "PostalCode": "M5M4N7"
+    }
+  },
+  {
+    "StoreID": "10547",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-251-5251",
+    "AddressDescription": "3345 LAKE SHORE BLVD W\nETOBICOKE, ON M8W1N1\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 17,
+        "Max": 27
+      },
+      "Carryout": {
+        "Min": 10,
+        "Max": 16
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.596",
+      "StoreLongitude": "-79.5256"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "3345 LAKE SHORE BLVD W",
+      "City": "ETOBICOKE",
+      "Region": "ON",
+      "PostalCode": "M8W1N1"
+    }
+  },
+  {
+    "StoreID": "10378",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-755-1144",
+    "AddressDescription": "447 Pharmacy Ave\nScarborough, ON M1L3G7\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Mo 10:30am-1:00am\nTu-Th,Sa-Su 10:30am-9:00pm\nFr 10:30am-2:00am"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 24,
+        "Max": 34
+      },
+      "Carryout": {
+        "Min": 8,
+        "Max": 13
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7049",
+      "StoreLongitude": "-79.2884"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "447 Pharmacy Ave",
+      "City": "Scarborough",
+      "Region": "ON",
+      "PostalCode": "M1L3G7"
+    }
+  },
+  {
+    "StoreID": "10473",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "647-777-7775",
+    "AddressDescription": "1906 Jane St\nNorth York, ON M9N2T8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 15,
+        "Max": 30
+      },
+      "Carryout": {
+        "Min": 10,
+        "Max": 20
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.71",
+      "StoreLongitude": "-79.506"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "1906 Jane St",
+      "City": "North York",
+      "Region": "ON",
+      "PostalCode": "M9N2T8"
+    }
+  },
+  {
+    "StoreID": "10483",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "647-352-5055",
+    "AddressDescription": "10 Mallard Rd Unit 52\nNorth York, ON M3B0A7\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 10:30am-2:00am",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 18,
+        "Max": 28
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7481",
+      "StoreLongitude": "-79.3474"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "10 Mallard Rd Unit 52",
+      "City": "North York",
+      "Region": "ON",
+      "PostalCode": "M3B0A7"
+    }
+  },
+  {
+    "StoreID": "10395",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-636-3888",
+    "AddressDescription": "820 Sheppard Ave W\nToronto, ON M3H2T1\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 16,
+        "Max": 26
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7532",
+      "StoreLongitude": "-79.451"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "820 Sheppard Ave W",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M3H2T1"
+    }
+  },
+  {
+    "StoreID": "10286",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-730-1313",
+    "AddressDescription": "201 Sheppard Ave E\nNorth York, ON M2N3A8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": true,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 20,
+        "Max": 30
+      },
+      "Carryout": {
+        "Min": 10,
+        "Max": 15
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7639",
+      "StoreLongitude": "-79.3989"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "201 Sheppard Ave E",
+      "City": "North York",
+      "Region": "ON",
+      "PostalCode": "M2N3A8"
+    }
+  },
+  {
+    "StoreID": "10328",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-265-5444",
+    "AddressDescription": "2247 Kingston Rd\nScarborough, ON M1N1T8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 19,
+        "Max": 29
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7053",
+      "StoreLongitude": "-79.2516"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "2247 Kingston Rd",
+      "City": "Scarborough",
+      "Region": "ON",
+      "PostalCode": "M1N1T8"
+    }
+  },
+  {
+    "StoreID": "10482",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-622-8222",
+    "AddressDescription": "460 Renforth Dr Unit 11\nEtobicoke, ON M9C2N2\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": true,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 27,
+        "Max": 37
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6505",
+      "StoreLongitude": "-79.5801"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "460 Renforth Dr Unit 11",
+      "City": "Etobicoke",
+      "Region": "ON",
+      "PostalCode": "M9C2N2"
+    }
+  },
+  {
+    "StoreID": "10365",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-759-1144",
+    "AddressDescription": "118 Ellesmere Rd\nToronto, ON M1R4C4\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 19,
+        "Max": 29
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 16
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7595",
+      "StoreLongitude": "-79.3099"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "118 Ellesmere Rd",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M1R4C4"
+    }
+  },
+  {
+    "StoreID": "39042",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-546-2020",
+    "AddressDescription": "38 FOREST MANOR RD Unit 6\nNORTH YORK, ON M2J0H4\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": true,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 20,
+        "Max": 30
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.772377",
+      "StoreLongitude": "-79.344794"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "AVAILABLE",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "38 FOREST MANOR RD Unit 6",
+      "City": "NORTH YORK",
+      "Region": "ON",
+      "PostalCode": "M2J0H4"
+    }
+  },
+  {
+    "StoreID": "10540",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-221-1600",
+    "AddressDescription": "222 Finch Ave W Unit 109-110\nNorth York, ON M2R1M6\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": true,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 22,
+        "Max": 32
+      },
+      "Carryout": {
+        "Min": 10,
+        "Max": 15
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7758",
+      "StoreLongitude": "-79.4346"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "222 Finch Ave W Unit 109-110",
+      "City": "North York",
+      "Region": "ON",
+      "PostalCode": "M2R1M6"
+    }
+  },
+  {
+    "StoreID": "10400",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-891-7878",
+    "AddressDescription": "645 Lakeshore Rd E\nMississauga, ON L5G1J5\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": true,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 13,
+        "Max": 23
+      },
+      "Carryout": {
+        "Min": 10,
+        "Max": 15
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.5697",
+      "StoreLongitude": "-79.567"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "645 Lakeshore Rd E",
+      "City": "Mississauga",
+      "Region": "ON",
+      "PostalCode": "L5G1J5"
+    }
+  },
+  {
+    "StoreID": "10464",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-661-8000",
+    "AddressDescription": "4207 Keele St\nNorth York, ON M3J3T8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Sa 10:30am-2:00am",
+      "Delivery": "Su-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 15,
+        "Max": 25
+      },
+      "Carryout": {
+        "Min": 10,
+        "Max": 15
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7735",
+      "StoreLongitude": "-79.4934"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "4207 Keele St",
+      "City": "North York",
+      "Region": "ON",
+      "PostalCode": "M3J3T8"
+    }
+  },
+  {
+    "StoreID": "10512",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-335-7373",
+    "AddressDescription": "1890 Kennedy Rd\nScarborough, ON M1P2L8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": true,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 10,
+        "Max": 20
+      },
+      "Carryout": {
+        "Min": 10,
+        "Max": 16
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7665",
+      "StoreLongitude": "-79.2814"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "1890 Kennedy Rd",
+      "City": "Scarborough",
+      "Region": "ON",
+      "PostalCode": "M1P2L8"
+    }
+  },
+  {
+    "StoreID": "10493",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-744-9800",
+    "AddressDescription": "1046 Albion Rd Unit A\nETOBICOKE, ON M9V1A7\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "Delivery": "Su-Th 11:00am-12:00am\nFr-Sa 11:00am-1:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 22,
+        "Max": 32
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7368",
+      "StoreLongitude": "-79.5642"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "1046 Albion Rd Unit A",
+      "City": "ETOBICOKE",
+      "Region": "ON",
+      "PostalCode": "M9V1A7"
+    }
+  },
+  {
+    "StoreID": "10348",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-238-4999",
+    "AddressDescription": "1038 Burnhamthorpe Rd E\nMississauga, ON L4Y2X6\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": true,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 10,
+        "Max": 20
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6145",
+      "StoreLongitude": "-79.6106"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "1038 Burnhamthorpe Rd E",
+      "City": "Mississauga",
+      "Region": "ON",
+      "PostalCode": "L4Y2X6"
+    }
+  },
+  {
+    "StoreID": "10366",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-431-5544",
+    "AddressDescription": "1195 Brimley Rd\nScarborough, ON M1P3G5\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:30am\nFr-Sa 10:30am-1:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:30am\nFr-Sa 10:30am-1:00am",
+      "Delivery": "Su-Th 10:30am-12:30am\nFr-Sa 10:30am-1:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 19,
+        "Max": 34
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 19
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7663",
+      "StoreLongitude": "-79.2595"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "1195 Brimley Rd",
+      "City": "Scarborough",
+      "Region": "ON",
+      "PostalCode": "M1P3G5"
+    }
+  },
+  {
+    "StoreID": "10466",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-740-9800",
+    "AddressDescription": "190 Queen's Plate Dr\nEtobicoke, ON M9W6Y9\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "Delivery": "Su-Th 11:30am-12:00am\nFr-Sa 11:30am-1:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 10,
+        "Max": 20
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7198",
+      "StoreLongitude": "-79.5944"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "190 Queen's Plate Dr",
+      "City": "Etobicoke",
+      "Region": "ON",
+      "PostalCode": "M9W6Y9"
+    }
+  },
+  {
+    "StoreID": "10455",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-298-0003",
+    "AddressDescription": "2245 KENNEDY ROAD\nScarborough, ON M1T3G8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 10,
+        "Max": 20
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7827",
+      "StoreLongitude": "-79.2872"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "2245 KENNEDY ROAD",
+      "City": "Scarborough",
+      "Region": "ON",
+      "PostalCode": "M1T3G8"
+    }
+  },
+  {
+    "StoreID": "10496",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-491-1444",
+    "AddressDescription": "3245 Finch Ave E Unit 11\nSCARBOROUGH, ON M1W4C1\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 19,
+        "Max": 29
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7956",
+      "StoreLongitude": "-79.3201"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "3245 Finch Ave E Unit 11",
+      "City": "SCARBOROUGH",
+      "Region": "ON",
+      "PostalCode": "M1W4C1"
+    }
+  },
+  {
+    "StoreID": "10572",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-224-9000",
+    "AddressDescription": "1553 STEELES AVE E\nNORTH YORK, ON M2M3Y7",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": null,
+    "LanguageLocationInfo": {},
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 26,
+        "Max": 36
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.8058",
+      "StoreLongitude": "-79.3846"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "AVAILABLE",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "1553 STEELES AVE E",
+      "City": "NORTH YORK",
+      "Region": "ON",
+      "PostalCode": "M2M3Y7"
+    }
+  },
+  {
+    "StoreID": "10295",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-270-3030",
+    "AddressDescription": "41 Dundas St East\nMississauga, ON L5A1V9\nAdditional parking in the back.",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "Additional parking in the back.",
+    "LanguageLocationInfo": {
+      "en": "Additional parking in the back."
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 23,
+        "Max": 33
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.5815",
+      "StoreLongitude": "-79.6154"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "AVAILABLE",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "41 Dundas St East",
+      "City": "Mississauga",
+      "Region": "ON",
+      "PostalCode": "L5A1V9"
+    }
+  },
+  {
+    "StoreID": "10381",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-289-3636",
+    "AddressDescription": "789 Markham Rd\nScarborough, ON M1H2Y1\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-11:45pm\nFr-Sa 10:30am-1:45am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 11:00am-1:45am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 10,
+        "Max": 20
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.767",
+      "StoreLongitude": "-79.2276"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "789 Markham Rd",
+      "City": "Scarborough",
+      "Region": "ON",
+      "PostalCode": "M1H2Y1"
+    }
+  },
+  {
+    "StoreID": "10334",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-889-4900",
+    "AddressDescription": "531 Atkinson Ave\nThornhill, ON L4J8L7\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 11:00am-12:00am\nFr-Sa 11:00am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 11:00am-12:00am\nFr-Sa 11:00am-2:00am",
+      "Delivery": "Su-Th 11:00am-12:00am\nFr-Sa 11:00am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 23,
+        "Max": 33
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.8177",
+      "StoreLongitude": "-79.4511"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "531 Atkinson Ave",
+      "City": "Thornhill",
+      "Region": "ON",
+      "PostalCode": "L4J8L7"
+    }
+  },
+  {
+    "StoreID": "10516",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "647-417-7889",
+    "AddressDescription": "20 Kingsbridge Garden Cir Unit 1B\nMississauga, ON L5R3K6\nEnter off of Tucana Crt.",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Sa 10:30am-2:00am",
+      "Delivery": "Su-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "Enter off of Tucana Crt.",
+    "LanguageLocationInfo": {
+      "en": "Enter off of Tucana Crt."
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 12,
+        "Max": 22
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6026",
+      "StoreLongitude": "-79.6489"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "AVAILABLE",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "20 Kingsbridge Garden Cir Unit 1B",
+      "City": "Mississauga",
+      "Region": "ON",
+      "PostalCode": "L5R3K6"
+    }
+  },
+  {
+    "StoreID": "10474",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-901-8878",
+    "AddressDescription": "4865 Sheppard Ave E Unit 1\nSCARBOROUGH, ON M1S3V8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 24,
+        "Max": 39
+      },
+      "Carryout": {
+        "Min": 8,
+        "Max": 18
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7917",
+      "StoreLongitude": "-79.2488"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "4865 Sheppard Ave E Unit 1",
+      "City": "SCARBOROUGH",
+      "Region": "ON",
+      "PostalCode": "M1S3V8"
+    }
+  },
+  {
+    "StoreID": "10551",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-677-7772",
+    "AddressDescription": "2855 DERRY RD E 5&6\nMISSISSAUGA, ON L4T1A6\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 25,
+        "Max": 35
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7023",
+      "StoreLongitude": "-79.6447"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "2855 DERRY RD E 5&6",
+      "City": "MISSISSAUGA",
+      "Region": "ON",
+      "PostalCode": "L4T1A6"
+    }
+  },
+  {
+    "StoreID": "10416",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-856-4244",
+    "AddressDescription": "4585 Hwy 7 West\nWoodbridge, ON L4L9T8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Mo-Th 10:30am-12:00am\nFr 10:30am-2:00am\nSa 11:00am-2:00am\nSu 11:00am-12:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Mo-Th 10:30am-12:00am\nFr 10:30am-2:00am\nSa 11:00am-2:00am\nSu 11:00am-12:00am",
+      "Delivery": "Mo-Th 10:30am-12:00am\nFr 10:30am-2:00am\nSa 11:00am-2:00am\nSu 11:00am-12:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": true,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 10,
+        "Max": 20
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7836",
+      "StoreLongitude": "-79.5755"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "AVAILABLE",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "4585 Hwy 7 West",
+      "City": "Woodbridge",
+      "Region": "ON",
+      "PostalCode": "L4L9T8"
+    }
+  },
+  {
+    "StoreID": "10499",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-855-9000",
+    "AddressDescription": "1684 Lakeshore Rd W Unit 23\nMISSISSAUGA, ON L5J1J5\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 16,
+        "Max": 26
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.5182",
+      "StoreLongitude": "-79.6211"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "AVAILABLE",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "1684 Lakeshore Rd W Unit 23",
+      "City": "MISSISSAUGA",
+      "Region": "ON",
+      "PostalCode": "L5J1J5"
+    }
+  },
+  {
+    "StoreID": "10495",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-293-0303",
+    "AddressDescription": "5005 Steeles Ave E Unit 109\nSCARBOROUGH, ON M1V5K1\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 27,
+        "Max": 37
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.8281",
+      "StoreLongitude": "-79.2875"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "5005 Steeles Ave E Unit 109",
+      "City": "SCARBOROUGH",
+      "Region": "ON",
+      "PostalCode": "M1V5K1"
+    }
+  },
+  {
+    "StoreID": "10347",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-803-9000",
+    "AddressDescription": "4040 Creditview Rd\nMississauga, ON L5C3Y8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 26,
+        "Max": 36
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.5681",
+      "StoreLongitude": "-79.6664"
+    },
+    "AllowPickupWindowOrders": true,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "4040 Creditview Rd",
+      "City": "Mississauga",
+      "Region": "ON",
+      "PostalCode": "L5C3Y8"
+    }
+  },
+  {
+    "StoreID": "10355",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "416-208-7777",
+    "AddressDescription": "4679 Kingston Rd\nToronto, ON M1E2P8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 25,
+        "Max": 35
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7763",
+      "StoreLongitude": "-79.1736"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "4679 Kingston Rd",
+      "City": "Toronto",
+      "Region": "ON",
+      "PostalCode": "M1E2P8"
+    }
+  },
+  {
+    "StoreID": "10283",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-764-6464",
+    "AddressDescription": "361 Carrville Rd\nRichmond Hill, ON L4C6E4\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 18,
+        "Max": 28
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.8501",
+      "StoreLongitude": "-79.4449"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "361 Carrville Rd",
+      "City": "Richmond Hill",
+      "Region": "ON",
+      "PostalCode": "L4C6E4"
+    }
+  },
+  {
+    "StoreID": "10402",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-755-0596",
+    "AddressDescription": "801 Matheson Blvd W\nMississauga, ON L5V2N6\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 15,
+        "Max": 25
+      },
+      "Carryout": {
+        "Min": 11,
+        "Max": 16
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6062",
+      "StoreLongitude": "-79.6914"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "801 Matheson Blvd W",
+      "City": "Mississauga",
+      "Region": "ON",
+      "PostalCode": "L5V2N6"
+    }
+  },
+  {
+    "StoreID": "10409",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-303-6999",
+    "AddressDescription": "9505 Keele St\nVaughan, ON L6A1W3\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 14,
+        "Max": 19
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.8417",
+      "StoreLongitude": "-79.5086"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "9505 Keele St",
+      "City": "Vaughan",
+      "Region": "ON",
+      "PostalCode": "L6A1W3"
+    }
+  },
+  {
+    "StoreID": "10346",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-569-9900",
+    "AddressDescription": "3405 Glen Erin Dr Unit 3\nMississauga, ON L5L3S2\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": true,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 25,
+        "Max": 35
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.5365",
+      "StoreLongitude": "-79.6848"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "3405 Glen Erin Dr Unit 3",
+      "City": "Mississauga",
+      "Region": "ON",
+      "PostalCode": "L5L3S2"
+    }
+  },
+  {
+    "StoreID": "10405",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-948-0808",
+    "AddressDescription": "4681 Highway 7 E Unit 5\nMarkham, ON L3R1M6\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": true,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 23,
+        "Max": 33
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.8622",
+      "StoreLongitude": "-79.3029"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "4681 Highway 7 E Unit 5",
+      "City": "Markham",
+      "Region": "ON",
+      "PostalCode": "L3R1M6"
+    }
+  },
+  {
+    "StoreID": "10565",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "289-323-0922",
+    "AddressDescription": "3604 Major MacKenzie Drive West Unit 3\nWoodbridge, ON L4H3T6",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+      "Delivery": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": null,
+    "LanguageLocationInfo": {},
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": true,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 22,
+        "Max": 27
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 12
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.8454",
+      "StoreLongitude": "-79.5557"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "AVAILABLE",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "3604 Major MacKenzie Drive West Unit 3",
+      "City": "Woodbridge",
+      "Region": "ON",
+      "PostalCode": "L4H3T6"
+    }
+  },
+  {
+    "StoreID": "10285",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-567-7777",
+    "AddressDescription": "2555 Erin Centre Blvd\nMississauga, ON L5M5G9\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 24,
+        "Max": 34
+      },
+      "Carryout": {
+        "Min": 10,
+        "Max": 15
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.5628",
+      "StoreLongitude": "-79.7105"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "2555 Erin Centre Blvd",
+      "City": "Mississauga",
+      "Region": "ON",
+      "PostalCode": "L5M5G9"
+    }
+  },
+  {
+    "StoreID": "10549",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-884-6565",
+    "AddressDescription": "10255 Yonge St Unit 2\nRichmond Hill, ON L4C3B2\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 16,
+        "Max": 21
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.8776",
+      "StoreLongitude": "-79.4382"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "DISABLED",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "10255 Yonge St Unit 2",
+      "City": "Richmond Hill",
+      "Region": "ON",
+      "PostalCode": "L4C3B2"
+    }
+  },
+  {
+    "StoreID": "10390",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-452-8111",
+    "AddressDescription": "1 Steeles Ave E\nBrampton, ON L6W4J4\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Sa 10:30am-2:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Sa 10:30am-2:00am",
+      "Delivery": "Su-Sa 10:30am-2:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": false,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 10,
+        "Max": 25
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 19
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.6663",
+      "StoreLongitude": "-79.7326"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "AVAILABLE",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "1 Steeles Ave E",
+      "City": "Brampton",
+      "Region": "ON",
+      "PostalCode": "L6W4J4"
+    }
+  },
+  {
+    "StoreID": "10591",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "289-948-0690",
+    "AddressDescription": "100 PEEL CENTRE DR Unit 100\nBRAMPTON, ON L6T4G8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+      "Delivery": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": true,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 35,
+        "Max": 40
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 12
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.71214",
+      "StoreLongitude": "-79.72258"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "AVAILABLE",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "100 PEEL CENTRE DR Unit 100",
+      "City": "BRAMPTON",
+      "Region": "ON",
+      "PostalCode": "L6T4G8"
+    }
+  },
+  {
+    "StoreID": "10293",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "905-458-9858",
+    "AddressDescription": "1650 Williams Pky\nBrampton, ON L6S5R7\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+      "Delivery": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": false,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": true,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 28,
+        "Max": 38
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 14
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.745",
+      "StoreLongitude": "-79.72"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "AVAILABLE",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "1650 Williams Pky",
+      "City": "Brampton",
+      "Region": "ON",
+      "PostalCode": "L6S5R7"
+    }
+  },
+  {
+    "StoreID": "10519",
+    "IsDeliveryStore": false,
+    "MinDistance": null,
+    "MaxDistance": null,
+    "Phone": "289-323-3326",
+    "AddressDescription": "9995 McVean Dr Unit B4\nBRAMPTON, ON L6P4K8\n",
+    "HolidaysDescription": "",
+    "HoursDescription": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+    "ServiceHoursDescription": {
+      "Carryout": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+      "Delivery": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+      "DriveUpCarryout": "Su-Sa 4:00pm-9:00pm",
+      "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+    },
+    "IsOnlineCapable": true,
+    "IsOnlineNow": true,
+    "IsNEONow": false,
+    "IsSpanish": true,
+    "LocationInfo": "",
+    "LanguageLocationInfo": {
+      "en": ""
+    },
+    "AllowDeliveryOrders": true,
+    "AllowCarryoutOrders": true,
+    "AllowDuc": true,
+    "ServiceMethodEstimatedWaitMinutes": {
+      "Delivery": {
+        "Min": 20,
+        "Max": 25
+      },
+      "Carryout": {
+        "Min": 9,
+        "Max": 12
+      }
+    },
+    "StoreCoordinates": {
+      "StoreLatitude": "43.7825",
+      "StoreLongitude": "-79.6996"
+    },
+    "AllowPickupWindowOrders": false,
+    "ContactlessDelivery": "AVAILABLE",
+    "ContactlessCarryout": "DISABLED",
+    "IsOpen": true,
+    "ServiceIsOpen": {
+      "Carryout": true,
+      "Delivery": true,
+      "DriveUpCarryout": false
+    },
+    "Address": {
+      "Street": "9995 McVean Dr Unit B4",
+      "City": "BRAMPTON",
+      "Region": "ON",
+      "PostalCode": "L6P4K8"
+    }
+  }
+]

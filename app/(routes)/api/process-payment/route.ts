@@ -1,21 +1,19 @@
+import { processPayment } from '@/server/services/pizza/process-payment';
 import CryptoJS from 'crypto-js';
-import { processPayment } from '../../services/pizza/process-payment';
 import { NextResponse } from 'next/server';
 
 export async function POST(req: Request) {
   try {
-    const { order, paymentDetails, amount } = await req.json();
+    const { order, paymentDetails, amount, orderState } = await req.json();
 
-    console.log('order', order)
     // Decrypt sensitive data
     const decryptionKey = process.env.ENCRYPTION_KEY!; // Replace with the same key as the client
     const decryptedData = CryptoJS.AES.decrypt(paymentDetails, decryptionKey).toString(CryptoJS.enc.Utf8);
 
-    console.log('decryptedData', decryptedData)
     const parsedPaymentDetails = JSON.parse(decryptedData);
 
     // Process payment
-    const result = await processPayment(order, { ...parsedPaymentDetails, amount });
+    const result = await processPayment(order, { ...parsedPaymentDetails, amount }, orderState);
 
     return NextResponse.json(result);
   } catch (error) {

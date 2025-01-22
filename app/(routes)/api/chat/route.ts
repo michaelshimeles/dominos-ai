@@ -1,8 +1,8 @@
+import { insertMessage, saveToolResult } from "@/server/services/messages";
+import { tools } from "@/server/services/tools";
 import { openai } from "@ai-sdk/openai";
 import { auth } from "@clerk/nextjs/server";
 import { streamText } from "ai";
-import { insertMessage, saveToolResult } from "../../services/messages";
-import { tools } from "../../services/tools";
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;

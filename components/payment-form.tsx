@@ -1,9 +1,9 @@
-'use client'
+"use client";
 
-import { zodResolver } from '@hookform/resolvers/zod'
-import { useForm } from 'react-hook-form'
-import * as z from 'zod'
-import { Button } from "@/components/ui/button"
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm } from "react-hook-form";
+import * as z from "zod";
+import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
@@ -11,12 +11,12 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form"
-import { Input } from "@/components/ui/input"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { useState, useEffect } from 'react'
-import { useChat } from 'ai/react'
-import CryptoJS from 'crypto-js';
+} from "@/components/ui/form";
+import { Input } from "@/components/ui/input";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { useState, useEffect } from "react";
+import { useChat } from "ai/react";
+import CryptoJS from "crypto-js";
 
 // Strong validation schema with detailed error messages
 const formSchema = z.object({
@@ -24,41 +24,42 @@ const formSchema = z.object({
   number: z
     .string()
     // .regex(/^[0-9]{16}$/, "Card number must be exactly 16 digits")
-    .transform((val) => val.replace(/\s+/g, '')), // Remove spaces
+    .transform((val) => val.replace(/\s+/g, "")), // Remove spaces
   expiration: z
     .string()
-    .regex(/^(0[1-9]|1[0-2])\/([2-9]\d)$/, 'Invalid expiration date (MM/YY)')
+    .regex(/^(0[1-9]|1[0-2])\/([2-9]\d)$/, "Invalid expiration date (MM/YY)")
     .refine((val) => {
-      const [month, year] = val.split('/');
+      const [month, year] = val.split("/");
       const expDate = new Date(2000 + parseInt(year), parseInt(month) - 1);
       return expDate > new Date();
     }, "Card has expired"),
-  securityCode: z
-    .string()
-    .regex(/^[0-9]{3,4}$/, "CVV must be 3 or 4 digits"),
-  postalCode: z
-    .string(),
+  securityCode: z.string().regex(/^[0-9]{3,4}$/, "CVV must be 3 or 4 digits"),
+  postalCode: z.string(),
   // .regex(/^[0-9]{5}(-[0-9]{4})?$/, "Invalid postal code format"),
   tipAmount: z
     .number()
     .min(0, "Tip cannot be negative")
     .transform((val) => Math.round(val * 100) / 100), // Round to 2 decimal places
-})
+});
 
-export function PaymentFormCard({ amount, orderId, order }: {
-  amount: number, // Accept either string or number
-  orderId: string,
-  order: any
+export function PaymentFormCard({
+  amount,
+  order,
+  orderState,
+}: {
+  amount: number; // Accept either string or number
+  order: any;
+  orderState: any;
 }) {
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [isLoading, setIsLoading] = useState(true)
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const { append } = useChat({ id: "store-select" });
 
   useEffect(() => {
     if (amount && !isNaN(amount)) {
-      setIsLoading(false)
+      setIsLoading(false);
     }
-  }, [amount])
+  }, [amount]);
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -70,7 +71,7 @@ export function PaymentFormCard({ amount, orderId, order }: {
       postalCode: "",
       tipAmount: 0,
     },
-  })
+  });
 
   if (isLoading) {
     return (
@@ -82,17 +83,15 @@ export function PaymentFormCard({ amount, orderId, order }: {
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900" />
         </CardContent>
       </Card>
-    )
+    );
   }
-
-  console.log('amount', amount)
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true);
     try {
       // Format card data securely
       const sanitizedCardInfo = {
-        number: values.number.replace(/\s+/g, ''),
+        number: values.number.replace(/\s+/g, ""),
         expiration: values.expiration,
         securityCode: values.securityCode,
         postalCode: values.postalCode,
@@ -100,19 +99,24 @@ export function PaymentFormCard({ amount, orderId, order }: {
       };
 
       // Encrypt sensitive data
-      const encryptionKey = process.env.NEXT_PUBLIC_ENCRYPTION_KEY || "default_key"; // Replace with a secure key
-      const encryptedData = CryptoJS.AES.encrypt(JSON.stringify(sanitizedCardInfo), encryptionKey).toString();
+      const encryptionKey =
+        process.env.NEXT_PUBLIC_ENCRYPTION_KEY || "default_key"; // Replace with a secure key
+      const encryptedData = CryptoJS.AES.encrypt(
+        JSON.stringify(sanitizedCardInfo),
+        encryptionKey
+      ).toString();
 
       // Process payment through API route
-      const response = await fetch('/api/process-payment', {
-        method: 'POST',
+      const response = await fetch("/api/process-payment", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({
           order,
           paymentDetails: encryptedData,
           amount,
+          orderState,
         }),
       });
 
@@ -120,33 +124,32 @@ export function PaymentFormCard({ amount, orderId, order }: {
 
       if (paymentResult.success) {
         await append({
-          role: 'assistant',
-          content: `Payment successful for order ${orderId}, let's track your order.`,
+          role: "assistant",
+          content: `Payment successful for order let's track your order.`,
         });
       } else {
-        throw new Error(paymentResult.error || 'Payment failed');
+        throw new Error(paymentResult.error || "Payment failed");
       }
 
       // Clear sensitive data immediately
       form.reset({
         amount: 0,
-        number: '',
-        expiration: '',
-        securityCode: '',
-        postalCode: '',
+        number: "",
+        expiration: "",
+        securityCode: "",
+        postalCode: "",
         tipAmount: 0,
       });
     } catch (error: any) {
-      console.error('Payment error:', error);
+      console.error("Payment error:", error);
       await append({
-        role: 'assistant',
+        role: "assistant",
         content: `${error?.message}`,
       });
     } finally {
       setIsSubmitting(false);
     }
   }
-
 
   return (
     <Card className="w-full max-w-md">
@@ -215,8 +218,10 @@ export function PaymentFormCard({ amount, orderId, order }: {
                       placeholder="•••• •••• •••• ••••"
                       {...field}
                       onChange={(e) => {
-                        const value = e.target.value.replace(/\D/g, '')
-                          .replace(/(.{4})/g, '$1 ').trim();
+                        const value = e.target.value
+                          .replace(/\D/g, "")
+                          .replace(/(.{4})/g, "$1 ")
+                          .trim();
                         field.onChange(value);
                       }}
                       maxLength={19}
@@ -242,9 +247,9 @@ export function PaymentFormCard({ amount, orderId, order }: {
                         placeholder="MM/YY"
                         {...field}
                         onChange={(e) => {
-                          let value = e.target.value.replace(/\D/g, '');
+                          let value = e.target.value.replace(/\D/g, "");
                           if (value.length >= 2) {
-                            value = value.slice(0, 2) + '/' + value.slice(2, 4);
+                            value = value.slice(0, 2) + "/" + value.slice(2, 4);
                           }
                           field.onChange(value);
                         }}
@@ -302,16 +307,12 @@ export function PaymentFormCard({ amount, orderId, order }: {
                 )}
               />
             </div>
-            <Button
-              type="submit"
-              className="w-full"
-              disabled={isSubmitting}
-            >
-              {isSubmitting ? 'Processing...' : 'Pay Now'}
+            <Button type="submit" className="w-full" disabled={isSubmitting}>
+              {isSubmitting ? "Processing..." : "Pay Now"}
             </Button>
           </form>
         </Form>
       </CardContent>
     </Card>
-  )
+  );
 }

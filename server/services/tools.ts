@@ -83,9 +83,6 @@ const renderOrderDetailsAndPaymentCard = createTool({
   description: "Share the order details and the payment card component",
   parameters: z.object({}),
   execute: async () => {
-    console.log("orderState.customerInfo", orderState.customerInfo);
-    console.log("orderState.selectedFood", orderState.selectedFood);
-    console.log("orderState.address", orderState.address);
     if (
       !orderState.customerInfo ||
       !orderState.selectedFood ||
@@ -95,7 +92,6 @@ const renderOrderDetailsAndPaymentCard = createTool({
       throw new Error("Missing required order data");
     }
 
-    console.log("orderState.selectedFood", orderState?.selectedFood?.[0]);
     const result = await orderDetails(
       orderState.customerInfo,
       orderState?.selectedFood?.[0],
@@ -107,6 +103,7 @@ const renderOrderDetailsAndPaymentCard = createTool({
     return {
       success: true,
       result: result,
+      orderState,
     };
   },
 });

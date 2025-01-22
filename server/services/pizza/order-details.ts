@@ -20,6 +20,16 @@ export async function orderDetails(
     unitType: customerInfo.unitType,
   });
 
+  const customerObj = {
+    address: customerInfo.address,
+    firstName: customerInfo.firstName,
+    lastName: customerInfo.lastName,
+    phone: customerInfo.phone,
+    email: customerInfo.email,
+    unitNumber: customerInfo.unitNumber,
+    unitType: customerInfo.unitType,
+  };
+
   const orderItem = new Item(pizzaOrder);
 
   try {
@@ -39,6 +49,7 @@ export async function orderDetails(
         success: true,
         amountDue: totalAmountDue,
         order,
+        customerObj,
       };
     } catch (error) {
       console.error("Order validation failed:", error);

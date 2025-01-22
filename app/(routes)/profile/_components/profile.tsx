@@ -1,6 +1,6 @@
 'use client'
 
-import { updateProfile } from "@/app/(server)/actions/update-profile"
+import { updateProfile } from "@/server/actions/update-profile"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"

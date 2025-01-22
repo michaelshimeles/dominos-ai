@@ -85,7 +85,6 @@ export async function selectPizza(items: any) {
   };
 
   const itemsOrder = items.map((item: any) => {
-    console.log("item", item);
     return {
       code: item?.size,
       options:

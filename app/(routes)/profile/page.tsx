@@ -1,4 +1,4 @@
-import { userInfo } from "@/app/(server)/services/user/user-info"
+import { userInfo } from "@/server/services/user/user-info"
 import Profile from "./_components/profile"
 
 export default async function ProfilePage() {
